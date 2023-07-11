@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import sieunhieuhangtot from "../../assets/sieunhieuhangtot.png";
-import sieuyentam from "../../assets/sieuyentam.png";
-import sieutienloi from "../../assets/sieutienloi.png";
-import sieutietkiem from "../../assets/sieutietkiem.png";
+import sieunhieuhangtot from "../../assets/imagesFooter/sieunhieuhangtot.png";
+import sieuyentam from "../../assets/imagesFooter/sieuyentam.png";
+import sieutienloi from "../../assets/imagesFooter/sieutienloi.png";
+import sieutietkiem from "../../assets/imagesFooter/sieutietkiem.png";
 const FooterSection1 = () => {
   return (
     <section className=" bg-white">

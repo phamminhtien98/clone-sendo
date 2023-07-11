@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import googleplay from "../../assets/0ZARLASzVrfL92924rzW.png";
-import appstore from "../../assets/5lUTWdk3DXr8nlC9MDII.png";
-import appgallery from "../../assets/AMV086JNpEbm4OGAvVng.png";
+import googleplay from "../../assets/imagesFooter/0ZARLASzVrfL92924rzW.png";
+import appstore from "../../assets/imagesFooter/5lUTWdk3DXr8nlC9MDII.png";
+import appgallery from "../../assets/imagesFooter/AMV086JNpEbm4OGAvVng.png";
 const FooterSection2 = () => {
   return (
     <section className="container py-[2.4rem] bg-[#f2f3f4]">
