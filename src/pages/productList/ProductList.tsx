@@ -1,9 +1,15 @@
+import { Categories } from "../../@Types/Types";
 import { categories as getCategories } from "../../data/Categories";
+import { dataFilter as getDataFilter } from "../../data/Filter";
 import Breadcrumb from "./breadcrumb/Breadcrumb";
-import SiteBar from "./productListContent/sitebar/SiteBar";
+import SideBar from "./productListContent/sidebar/SideBar";
 
 const ProductList = () => {
   const categories = getCategories;
+  const dataFilter = getDataFilter;
+  const handleSelectCategory = (category: Categories) => {
+    console.log(category);
+  };
   return (
     <main>
       <div className="bg-[#f2f3f4] min-h-[100vh] pb-[2.4rem] w-full">
@@ -22,8 +28,15 @@ const ProductList = () => {
           </div>
           {/* body */}
           <div>
-            <div className="bg-white rounded-[8px] mr-[2.4px] max-h-[90vh] min-h-[80vh] overflow-x-hidden overflow-y-auto w-[20.6rem]">
-              <SiteBar categories={categories} />
+            <div
+              id="sidebar"
+              className="bg-white rounded-[8px] mr-[2.4px] max-h-[90vh] min-h-[80vh] overflow-x-hidden overflow-y-auto w-[20.6rem]"
+            >
+              <SideBar
+                categories={categories}
+                handleSelectCategory={handleSelectCategory}
+                dataFilter={dataFilter}
+              />
             </div>
             <div></div>
           </div>
