@@ -6,7 +6,7 @@ import ProductList from "./pages/productList/ProductList";
 const Router = () => {
   const routeElements = useRoutes([
     {
-      path: "/",
+      path: "/clone-sendo",
       element: (
         <SenDoLayout>
           <ProductList />
