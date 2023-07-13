@@ -16,7 +16,7 @@ const ProductList = () => {
   };
   return (
     <main>
-      <div className="bg-[#f2f3f4] min-h-[100vh] pb-[2.4rem] w-full">
+      <div className="bg-[#f2f3f4] min-h-[100vh] pb-[2.4rem] w-full relative">
         <div className="px-[1.6rem] container">
           {/* top */}
           <div className="py-[1.6rem]">
@@ -34,7 +34,7 @@ const ProductList = () => {
           <div className="flex min-h-[90vh]">
             <div
               id="sidebar"
-              className="bg-white rounded-[8px] mr-[2.4rem] max-h-[90vh] min-h-[80vh] overflow-x-hidden overflow-y-auto w-[20.6rem]"
+              className="bg-white rounded-[8px] mr-[2.4rem] max-h-[90vh] min-h-[80vh] overflow-x-hidden overflow-y-auto w-[20.6rem] sticky top-[8rem]"
             >
               <SideBar
                 categories={categories}

@@ -25,7 +25,7 @@ const SortProduct = () => {
     sortType: "vasup_desc",
     name: "Đề cử",
   });
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   return (
     <div
       className="flex cursor-pointer items-center"
@@ -43,7 +43,7 @@ const SortProduct = () => {
             />
           </div>
           {show && (
-            <ul className="lg:w-[179px] p-[0.8rem] shadow bg-white rounded-[4px] absolute w-full top-[120%] left-0">
+            <ul className="lg:w-[179px] p-[0.8rem] shadow bg-white rounded-[4px] absolute w-full top-[120%] left-0 z-[2]">
               {sortTypes.map((item, index) => {
                 return (
                   <li

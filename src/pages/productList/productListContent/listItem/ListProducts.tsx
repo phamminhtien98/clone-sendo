@@ -1,3 +1,4 @@
+import ProductFlashSale from "./ProductFlashSale";
 import ProductSKU from "./ProductSKU";
 
 interface Props {
@@ -5,9 +6,15 @@ interface Props {
 }
 const ListProducts = ({ dataProductList }: Props) => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
+    <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
       {dataProductList.map((item, index) =>
-        item.type === "SKU" ? <ProductSKU data={item} /> : ""
+        item.type === "SKU" ? (
+          <ProductSKU key={index} data={item} />
+        ) : item.type === "FlashSale" || item.type === "DailySale" ? (
+          <ProductFlashSale key={index} data={item} />
+        ) : (
+          ""
+        )
       )}
     </div>
   );

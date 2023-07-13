@@ -6,7 +6,7 @@ interface Props {
 }
 const Tooltip = ({ text, children }: Props) => {
   const [isVisible, setIsvisible] = useState(false);
-  const div = useRef<HTMLInputElement>(null);
+  const div = useRef<HTMLDivElement>(null);
   return (
     <div
       ref={div}
