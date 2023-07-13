@@ -1,0 +1,3061 @@
+export const ProductLists = [
+  {
+    index: 0,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 109409247,
+      name: "Sách - Tài chính và xã hội tốt",
+      category_ids: [1, 2, 2259, 2262, 2279],
+      category_id: 2279,
+      shop_id: 952713,
+      seller_admin_id: 952713,
+      brand_id: 4756,
+      price: 155000,
+      max_price: 155000,
+      final_price: 132000,
+      special_price: 132000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "sach-tai-chinh-va-xa-hoi-tot-109409247.html",
+      external_id: 109409247,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_109409247",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/12_27/TT24i8r1VM3aKAyytYMJ_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/12_27/TT24i8r1VM3aKAyytYMJ.jpg",
+      min_price: "132.000đ",
+      price_range: "132.000đ",
+      original_price: "155.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "tiemsachbaonam",
+      is_shop_mall: true,
+      track_info:
+        "952713;4756;app;109409247;Sách - Tài chính và xã hội tốt;132.000đ;2279",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=132000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-tai-chinh-va-xa-hoi-tot-109409247.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=1",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 1,
+    type: "DailySale",
+    item: {
+      button_text: "Mua ngay",
+      buy_limit: 3,
+      final_price: 149000,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/11_24/Vx68a1svfj0xYZfSN5DO_simg_de2fe0_100x100_maxb.png",
+      name: "Combo 2 Ream giấy A4 IK Copy 80 gsm - Tặng 3 Bìa lá F4 FO-CH04",
+      price: 186000,
+      product_id: 97552399,
+      promotion_percentage: 20,
+      quantity: 50,
+      remaining: 50,
+      url_key:
+        "https://www.sendo.vn/combo-2-ream-giay-a4-ik-copy-80-gsm-tang-3-bia-la-f4-fo-ch04-97552399.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=DailySale&source_block_id=feed&source_page_id=cate1&source_position=2",
+      cat_path:
+        "combo-2-ream-giay-a4-ik-copy-80-gsm-tang-3-bia-la-f4-fo-ch04-97552399.html",
+      item_type: "21",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      track_meta: {
+        algo_type: "",
+        original_type: "DailySale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+      promotion_sub_message: {},
+    },
+  },
+  {
+    index: 2,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 109028376,
+      name: "Sách - Tâm lí học đám đông",
+      category_ids: [1, 2, 2259, 2263, 2298],
+      category_id: 2298,
+      shop_id: 952713,
+      seller_admin_id: 952713,
+      brand_id: 4756,
+      price: 190000,
+      max_price: 190000,
+      final_price: 162000,
+      special_price: 162000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "sach-tam-li-hoc-dam-dong-109028376.html",
+      external_id: 109028376,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_109028376",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/12_21/15hL3CAPMPfXsUzSM6Yo_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/12_21/15hL3CAPMPfXsUzSM6Yo.jpg",
+      min_price: "162.000đ",
+      price_range: "162.000đ",
+      original_price: "190.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "tiemsachbaonam",
+      is_shop_mall: true,
+      track_info:
+        "952713;4756;app;109028376;Sách - Tâm lí học đám đông;162.000đ;2298",
+      order_count: 1,
+      order_count_text: "1",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=162000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-tam-li-hoc-dam-dong-109028376.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=3",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 4,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 112116379,
+      name: "Để Học Tốt Toán Lớp 3 (Theo Chương Trình Giáo Dục Phổ Thông Mới",
+      category_ids: [1, 2, 2259, 2260, 2270],
+      category_id: 2270,
+      shop_id: 975919,
+      seller_admin_id: 975919,
+      brand_id: 6142,
+      price: 59000,
+      max_price: 59000,
+      final_price: 59000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "de-hoc-tot-toan-lop-3-theo-chuong-trinh-giao-duc-pho-thong-moi-112116379.html",
+      external_id: 112116379,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_112116379",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/03_23/ILVEi7OjpzbpI0CwmHWX_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/03_23/ILVEi7OjpzbpI0CwmHWX.jpg",
+      min_price: "59.000đ",
+      price_range: "59.000đ",
+      original_price: "59.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhân Văn Online",
+      is_shop_mall: true,
+      track_info:
+        "975919;6142;app;112116379;Để Học Tốt Toán Lớp 3 (Theo Chương Trình Giáo Dục Phổ Thông Mới;59.000đ;2270",
+      destination_url: "?product_prices=59000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/de-hoc-tot-toan-lop-3-theo-chuong-trinh-giao-duc-pho-thong-moi-112116379.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=5",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 5,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 11707264,
+      name: "Bút Máy Preppy Nhật Bản, Bút Mực Tiểu Học F03",
+      category_ids: [1, 2, 2259, 2268, 2328],
+      category_id: 2328,
+      shop_id: 286095,
+      seller_admin_id: 286095,
+      rating_percent: 5,
+      total_ratings: 8,
+      price: 95000,
+      max_price: 95000,
+      final_price: 65000,
+      max_final_price: 65000,
+      special_price: 65000,
+      promotion_percentage: 32,
+      shop_badge_urls: [
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "but-may-preppy-nhat-ban-but-muc-tieu-hoc-f03-11707264.html",
+      external_id: 11707264,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_11707264",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2020/08_15/dMxUBv51qtXiTp0I9oGX_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2020/08_15/dMxUBv51qtXiTp0I9oGX.jpg",
+      min_price: "65.000đ",
+      price_range: "65.000đ",
+      original_price: "95.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Kredivo",
+        text_color: "#133096",
+        bg_color: "#f1f3f9",
+        icon: "https://media3.scdn.vn/img4/2022/06_24/V5PHsdxRbMf35yH1KO0h.png",
+      },
+      shop_name: "Trang Linh Npp",
+      track_info:
+        "286095;0;app;11707264;Bút Máy Preppy Nhật Bản, Bút Mực Tiểu Học F03;65.000đ;2328",
+      order_count: 25,
+      order_count_text: "25",
+      final_promotion_percent: 32,
+      promotion_percent_upto: "Up 32%",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      is_in_promotion: true,
+      destination_url: "?product_prices=65000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/but-may-preppy-nhat-ban-but-muc-tieu-hoc-f03-11707264.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=6",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 6,
+    type: "FlashSale",
+    item: {
+      button_text: "Mua ngay",
+      buy_limit: 10,
+      final_price: 149000,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/09_22/iRodDGt3VLheHmzaK1NR_simg_de2fe0_250x250_maxb.jpg",
+      name: "Combo 50 bút mực xanh Thiên Long TL-027 FO-03 TL-079",
+      price: 250000,
+      product_id: 102289214,
+      promotion_percentage: 41,
+      quantity: 50,
+      remaining: 50,
+      url_key:
+        "https://www.sendo.vn/combo-50-but-muc-xanh-thien-long-tl-027-fo-03-tl-079-102289214.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=FlashSale&source_block_id=feed&source_page_id=cate1&source_position=7",
+      cat_path:
+        "combo-50-but-muc-xanh-thien-long-tl-027-fo-03-tl-079-102289214.html",
+      item_type: "20",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      slot_id: 50219449,
+      track_meta: {
+        algo_type: "",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+      promotion_sub_message: {},
+    },
+  },
+  {
+    index: 7,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 114050920,
+      name: "Sách - Họ là ai - Siêu con người",
+      category_ids: [1, 2, 2259, 2266, 2320],
+      category_id: 2320,
+      shop_id: 952713,
+      seller_admin_id: 952713,
+      brand_id: 1945,
+      price: 75000,
+      max_price: 75000,
+      final_price: 63750,
+      special_price: 63750,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "sach-ho-la-ai-sieu-con-nguoi-114050920.html",
+      external_id: 114050920,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_114050920",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/04_29/IBuWGvhTYqPU4KqA6aDt_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/04_29/IBuWGvhTYqPU4KqA6aDt.jpg",
+      min_price: "63.750đ",
+      price_range: "63.750đ",
+      original_price: "75.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "tiemsachbaonam",
+      is_shop_mall: true,
+      track_info:
+        "952713;1945;app;114050920;Sách - Họ là ai - Siêu con người;63.750đ;2320",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=63750&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-ho-la-ai-sieu-con-nguoi-114050920.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=8",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 8,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 110056217,
+      name: "Sách - Việt Nam Phong Tục ( Phan Kế Bình 2022)",
+      category_ids: [1, 2, 2259, 2265, 2310],
+      category_id: 2310,
+      shop_id: 973225,
+      seller_admin_id: 973225,
+      brand_id: 6098,
+      price: 130000,
+      max_price: 130000,
+      final_price: 96000,
+      special_price: 96000,
+      promotion_percentage: 27,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "sach-viet-nam-phong-tuc-phan-ke-binh-2022-110056217.html",
+      external_id: 110056217,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_110056217",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/01_07/VtdSsibPL1fsqRE19Gc8_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/01_07/VtdSsibPL1fsqRE19Gc8.jpg",
+      min_price: "96.000đ",
+      price_range: "96.000đ",
+      original_price: "130.000đ",
+      promotion_sub_message: {},
+      shop_name: "baochaubooks",
+      is_shop_mall: true,
+      track_info:
+        "973225;6098;app;110056217;Sách - Việt Nam Phong Tục ( Phan Kế Bình 2022);96.000đ;2310",
+      final_promotion_percent: 27,
+      promotion_percent_upto: "Up 27%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=96000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-viet-nam-phong-tuc-phan-ke-binh-2022-110056217.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=9",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 10,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 114055215,
+      name: "Tâm Lý Học Tội Phạm (Combo 2 Cuốn) - Stanton E. Samenow New 100% ASB2703",
+      category_ids: [1, 2, 2259, 2267, 2323],
+      category_id: 2323,
+      shop_id: 970525,
+      seller_admin_id: 970525,
+      brand_id: 1910,
+      price: 240000,
+      max_price: 240000,
+      final_price: 240000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "tam-ly-hoc-toi-pham-combo-2-cuon-stanton-e-samenow-new-100-asb2703-114055215.html",
+      external_id: 114055215,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_114055215",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/05_10/FNASGtui2OE9tRvaGst3_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/05_10/FNASGtui2OE9tRvaGst3.jpg",
+      min_price: "240.000đ",
+      price_range: "240.000đ",
+      original_price: "240.000đ",
+      promotion_sub_message: {},
+      shop_name: "Tiệm Sách Blog Mèo",
+      is_shop_mall: true,
+      track_info:
+        "970525;1910;app;114055215;Tâm Lý Học Tội Phạm (Combo 2 Cuốn) - Stanton E. Samenow New 100% ASB2703;240.000đ;2323",
+      destination_url: "?product_prices=240000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/tam-ly-hoc-toi-pham-combo-2-cuon-stanton-e-samenow-new-100-asb2703-114055215.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=11",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 11,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 43679649,
+      name: "Combo 3 cuốn TedBooks: Kỳ Bí Dòng Sông Sôi Trong Lòng Amazon + Con Trai Kẻ Khủng Bố + Cà Phê Trên Sao Hỏa",
+      category_ids: [1, 2, 2259, 2260, 2269],
+      category_id: 2269,
+      shop_id: 607965,
+      seller_admin_id: 607965,
+      brand_id: 4632,
+      price: 205000,
+      max_price: 205000,
+      final_price: 174000,
+      special_price: 174000,
+      promotion_percentage: 16,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "combo-3-cuon-tedbooks-ky-bi-dong-song-soi-trong-long-amazon-con-trai-ke-khung-bo-ca-phe-tren-sao-hoa-43679649.html",
+      external_id: 43679649,
+      app_discount_percentage: 2,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_43679649",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2021/05_12/AbRLCC4DbFug0sAvm78p_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2021/05_12/AbRLCC4DbFug0sAvm78p.jpg",
+      min_price: "174.000đ",
+      price_range: "174.000đ",
+      original_price: "205.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sách Nghé",
+      is_shop_mall: true,
+      track_info:
+        "607965;4632;app;43679649;Combo 3 cuốn TedBooks: Kỳ Bí Dòng Sông Sôi Trong Lòng Amazon + Con Trai Kẻ Khủng Bố + Cà Phê Trên Sao Hỏa;174.000đ;2269",
+      final_promotion_percent: 16,
+      promotion_percent_upto: "Up 16%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=174000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/combo-3-cuon-tedbooks-ky-bi-dong-song-soi-trong-long-amazon-con-trai-ke-khung-bo-ca-phe-tren-sao-hoa-43679649.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=12",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 12,
+    type: "FlashSale",
+    item: {
+      button_text: "Mua ngay",
+      buy_limit: 10,
+      final_price: 99000,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/11_17/8PZqr24XAKf6uVsJbuxs_simg_de2fe0_250x250_maxb.jpg",
+      name: "Combo 20 Bút gel Smooth Flowing Gel Ink Thiên Long Điểm 10 TP-GEL039",
+      price: 200000,
+      product_id: 107211222,
+      promotion_percentage: 51,
+      quantity: 150,
+      remaining: 150,
+      url_key:
+        "https://www.sendo.vn/combo-20-but-gel-smooth-flowing-gel-ink-thien-long-diem-10-tp-gel039-107211222.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=FlashSale&source_block_id=feed&source_page_id=cate1&source_position=13",
+      event_banners: [
+        {
+          type: "clear-sale",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_09/DOS2Ttzbl51MdKf3Euo0.png",
+        },
+      ],
+      cat_path:
+        "combo-20-but-gel-smooth-flowing-gel-ink-thien-long-diem-10-tp-gel039-107211222.html",
+      item_type: "20",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      slot_id: 50219449,
+      track_meta: {
+        algo_type: "",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+      promotion_sub_message: {},
+    },
+  },
+  {
+    index: 14,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 41126111,
+      name: "NXB Trẻ - 2 cuốn truyện Nguyễn Nhật Ánh: Sương Khói Quê Nhà + Thương Nhớ Trà Long",
+      category_ids: [1, 2, 2259, 2266, 2320],
+      category_id: 2320,
+      shop_id: 607965,
+      seller_admin_id: 607965,
+      brand_id: 1910,
+      price: 180000,
+      max_price: 180000,
+      final_price: 153000,
+      special_price: 153000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "nxb-tre-2-cuon-truyen-nguyen-nhat-anh-suong-khoi-que-nha-thuong-nho-tra-long-41126111.html",
+      external_id: 41126111,
+      app_discount_percentage: 2,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_41126111",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2021/02_26/C35XNUjvTTkmmyp101Dl_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2021/02_26/C35XNUjvTTkmmyp101Dl.jpg",
+      min_price: "153.000đ",
+      price_range: "153.000đ",
+      original_price: "180.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sách Nghé",
+      is_shop_mall: true,
+      track_info:
+        "607965;1910;app;41126111;NXB Trẻ - 2 cuốn truyện Nguyễn Nhật Ánh: Sương Khói Quê Nhà + Thương Nhớ Trà Long;153.000đ;2320",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=153000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/nxb-tre-2-cuon-truyen-nguyen-nhat-anh-suong-khoi-que-nha-thuong-nho-tra-long-41126111.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=15",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 15,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 112249138,
+      name: "Sách - Chú thuật hồi chiến (tặng kèm obi và thẻ bo góc nhựa) (cập nhật từ tập 11 đến 20)",
+      category_ids: [1, 2, 2259, 2264, 2307],
+      category_id: 2307,
+      shop_id: 952713,
+      seller_admin_id: 952713,
+      brand_id: 1945,
+      price: 30000,
+      max_price: 30000,
+      final_price: 30000,
+      max_final_price: 30000,
+      special_price: 30000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path:
+        "sach-chu-thuat-hoi-chien-tang-kem-obi-va-the-bo-goc-nhua-cap-nhat-tu-tap-11-den-20-112249138.html",
+      external_id: 112249138,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_112249138",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/03_25/vljEICKc3jTS1hfO2Qo8_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/03_25/vljEICKc3jTS1hfO2Qo8.jpg",
+      min_price: "30.000đ",
+      price_range: "30.000đ",
+      original_price: "30.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "tiemsachbaonam",
+      is_shop_mall: true,
+      track_info:
+        "952713;1945;app;112249138;Sách - Chú thuật hồi chiến (tặng kèm obi và thẻ bo góc nhựa) (cập nhật từ tập 11 đến 20);30.000đ;2307",
+      destination_url: "?product_prices=30000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-chu-thuat-hoi-chien-tang-kem-obi-va-the-bo-goc-nhua-cap-nhat-tu-tap-11-den-20-112249138.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=16",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 16,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 41590471,
+      name: "Bộ sách Làm Giàu Từ Chứng Khoán phiên bản mới + Hướng Dẫn Thực Hành CANSLIM Cho Người Mới Bắt Đầu",
+      category_ids: [1, 2, 2259, 2262, 2286],
+      category_id: 2286,
+      shop_id: 625870,
+      seller_admin_id: 625870,
+      brand_id: 6212,
+      rating_percent: 5,
+      total_ratings: 1,
+      price: 700000,
+      max_price: 700000,
+      final_price: 700000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "bo-sach-lam-giau-tu-chung-khoan-phien-ban-moi-huong-dan-thuc-hanh-canslim-cho-nguoi-moi-bat-dau-41590471.html",
+      external_id: 41590471,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_41590471",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2021/03_18/zB12fsPt34SgnZK0jbbu_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2021/03_18/zB12fsPt34SgnZK0jbbu.jpg",
+      min_price: "700.000đ",
+      price_range: "700.000đ",
+      original_price: "700.000đ",
+      has_video: true,
+      img_highlight_urls: [
+        {
+          type: "video",
+          url: "https://media3.scdn.vn/img4/2020/11_05/nmvSW1QNpOxypp3Y9Lwm.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sach Luat VN",
+      is_shop_mall: true,
+      track_info:
+        "625870;6212;app;41590471;Bộ sách Làm Giàu Từ Chứng Khoán phiên bản mới + Hướng Dẫn Thực Hành CANSLIM Cho Người Mới Bắt Đầu;700.000đ;2286",
+      order_count: 16,
+      order_count_text: "16",
+      destination_url: "?product_prices=700000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/bo-sach-lam-giau-tu-chung-khoan-phien-ban-moi-huong-dan-thuc-hanh-canslim-cho-nguoi-moi-bat-dau-41590471.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=17",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 17,
+    type: "SKU",
+    original_type: "FlashSale",
+    item: {
+      product_id: 114072527,
+      name: "Cambridge Young Learner English Test Starters 4: Student Book",
+      category_ids: [1, 2, 2259, 2260, 2270],
+      category_id: 2270,
+      shop_id: 975919,
+      seller_admin_id: 975919,
+      brand_id: 1435,
+      price: 122000,
+      max_price: 122000,
+      final_price: 122000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "cambridge-young-learner-english-test-starters-4-student-book-114072527.html",
+      external_id: 114072527,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_114072527",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/05_03/8ZPmfY5lKFLBLZCae9zU_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/05_03/8ZPmfY5lKFLBLZCae9zU.jpg",
+      min_price: "122.000đ",
+      price_range: "122.000đ",
+      original_price: "122.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhân Văn Online",
+      is_shop_mall: true,
+      track_info:
+        "975919;1435;app;114072527;Cambridge Young Learner English Test Starters 4: Student Book;122.000đ;2270",
+      destination_url: "?product_prices=122000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/cambridge-young-learner-english-test-starters-4-student-book-114072527.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=18",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 18,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 9671662,
+      name: "Mực dấu Shiny S-62 Đỏ, đen, xanh",
+      category_ids: [1, 2, 2259, 2268, 2336],
+      category_id: 2336,
+      shop_id: 363551,
+      seller_admin_id: 363551,
+      rating_percent: 4.8,
+      total_ratings: 6,
+      price: 32000,
+      max_price: 32000,
+      final_price: 32000,
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "muc-dau-shiny-s-62-do-den-xanh-9671662.html",
+      external_id: 9671662,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_9671662",
+      thumbnail_url:
+        "https://media3.scdn.vn/img2/2018/5_9/0hrUQr_simg_b5529c_250x250_maxb.jpg",
+      original_img_url: "https://media3.scdn.vn/img2/2018/5_9/0hrUQr.jpg",
+      min_price: "32.000đ",
+      price_range: "32.000đ",
+      original_price: "32.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Kredivo",
+        text_color: "#133096",
+        bg_color: "#f1f3f9",
+        icon: "https://media3.scdn.vn/img4/2022/06_24/V5PHsdxRbMf35yH1KO0h.png",
+      },
+      shop_name: "ThanhTruc Hà Nội",
+      track_info:
+        "363551;0;app;9671662;Mực dấu Shiny S-62 Đỏ, đen, xanh;32.000đ;2336",
+      order_count: 17,
+      order_count_text: "17",
+      destination_url: "?product_prices=32000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/muc-dau-shiny-s-62-do-den-xanh-9671662.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=19",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 20,
+    type: "DailySale",
+    item: {
+      button_text: "Mua ngay",
+      buy_limit: 3,
+      final_price: 1000,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2020/03_25/woezwsGxDpgwOpcDuwTa_simg_de2fe0_100x100_maxb.jpg",
+      name: "Bút Bi Nước Văn Phòng 0.5mm, Mực Đều, Nét Chữ Đẹp, Đủ Màu, Xanh, Đen, Đỏ",
+      price: 8000,
+      product_id: 21972051,
+      promotion_percentage: 88,
+      quantity: 160,
+      remaining: 160,
+      url_key:
+        "https://www.sendo.vn/but-bi-nuoc-van-phong-05mm-muc-deu-net-chu-dep-du-mau-xanh-den-do-21972051.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=DailySale&source_block_id=feed&source_page_id=cate1&source_position=21",
+      cat_path:
+        "but-bi-nuoc-van-phong-05mm-muc-deu-net-chu-dep-du-mau-xanh-den-do-21972051.html",
+      item_type: "21",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      track_meta: {
+        algo_type: "",
+        original_type: "DailySale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+      promotion_sub_message: {},
+    },
+  },
+  {
+    index: 21,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 13691687,
+      name: "Hộp 3 ruột bút bi xóa được Pilot Frixion Nhật Bản",
+      category_ids: [1, 2, 2259, 2268, 2336],
+      category_id: 2336,
+      shop_id: 391382,
+      seller_admin_id: 391382,
+      rating_percent: 5,
+      total_ratings: 2,
+      price: 135000,
+      max_price: 135000,
+      final_price: 135000,
+      special_price: 89000,
+      shop_warehouse_city: "Hà Nội",
+      cat_path:
+        "hop-3-ruot-but-bi-xoa-duoc-pilot-frixion-nhat-ban-13691687.html",
+      external_id: 13691687,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_13691687",
+      thumbnail_url:
+        "https://media3.scdn.vn/img3/2018/12_25/bDE7RT_simg_b5529c_250x250_maxb.png",
+      original_img_url: "https://media3.scdn.vn/img3/2018/12_25/bDE7RT.png",
+      min_price: "135.000đ",
+      price_range: "135.000đ",
+      original_price: "135.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Kredivo",
+        text_color: "#133096",
+        bg_color: "#f1f3f9",
+        icon: "https://media3.scdn.vn/img4/2022/06_24/V5PHsdxRbMf35yH1KO0h.png",
+      },
+      shop_name: "somat finish",
+      track_info:
+        "391382;0;app;13691687;Hộp 3 ruột bút bi xóa được Pilot Frixion Nhật Bản;135.000đ;2336",
+      order_count: 13,
+      order_count_text: "13",
+      destination_url: "?product_prices=135000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/hop-3-ruot-but-bi-xoa-duoc-pilot-frixion-nhat-ban-13691687.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=22",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 22,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 112840992,
+      name: "Sách -  Ngữ Pháp Tiếng Nhật Căn Bản",
+      category_ids: [1, 2, 2259, 2261, 2277],
+      category_id: 2277,
+      shop_id: 976161,
+      seller_admin_id: 976161,
+      brand_id: 6104,
+      price: 229000,
+      max_price: 229000,
+      final_price: 172000,
+      special_price: 172000,
+      promotion_percentage: 25,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "sach-ngu-phap-tieng-nhat-can-ban-112840992.html",
+      external_id: 112840992,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_112840992",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/03_31/tT5iv2PDaSBnVtRWr5Rc_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/03_31/tT5iv2PDaSBnVtRWr5Rc.jpg",
+      min_price: "172.000đ",
+      price_range: "172.000đ",
+      original_price: "229.000đ",
+      promotion_sub_message: {},
+      shop_name: "BOOK SAI GON",
+      is_shop_mall: true,
+      track_info:
+        "976161;6104;app;112840992;Sách -  Ngữ Pháp Tiếng Nhật Căn Bản;172.000đ;2277",
+      final_promotion_percent: 25,
+      promotion_percent_upto: "Up 25%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=172000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-ngu-phap-tieng-nhat-can-ban-112840992.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=23",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 24,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 98553046,
+      name: "Hoa Nở Từ Tâm",
+      category_ids: [1, 2, 2259, 2265, 2311],
+      category_id: 2311,
+      shop_id: 784178,
+      seller_admin_id: 784178,
+      brand_id: 6063,
+      price: 79000,
+      max_price: 79000,
+      final_price: 79000,
+      special_price: 39500,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "hoa-no-tu-tam-98553046.html",
+      external_id: 98553046,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_98553046",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/08_10/fEh45nCkyvvt61SwVAH4_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/08_10/fEh45nCkyvvt61SwVAH4.jpg",
+      min_price: "79.000đ",
+      price_range: "79.000đ",
+      original_price: "79.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhà sách Chibooks",
+      is_shop_mall: true,
+      track_info: "784178;6063;app;98553046;Hoa Nở Từ Tâm;79.000đ;2311",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=79000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/hoa-no-tu-tam-98553046.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=25",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 25,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 113617793,
+      name: "bút dạ quang phát sáng combo 12 cây",
+      category_ids: [1, 2, 2259, 2697, 2699],
+      category_id: 2699,
+      shop_id: 976967,
+      seller_admin_id: 976967,
+      price: 43000,
+      max_price: 43000,
+      final_price: 43000,
+      shop_badge_urls: [
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+      shop_warehouse_city: "Đắk Lắk",
+      cat_path: "but-da-quang-phat-sang-combo-12-cay-113617793.html",
+      external_id: 113617793,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_113617793",
+      is_shipping_supported: true,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/04_19/DA1EPJPeMWcFbc4lqvkl_simg_b5529c_250x250_maxb.png",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/04_19/DA1EPJPeMWcFbc4lqvkl.png",
+      min_price: "43.000đ",
+      price_range: "43.000đ",
+      original_price: "43.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {},
+      shop_name: "Bành Kỷ",
+      track_info:
+        "976967;0;app;113617793;bút dạ quang phát sáng combo 12 cây;43.000đ;2699",
+      destination_url: "?product_prices=43000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/but-da-quang-phat-sang-combo-12-cay-113617793.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=26",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 26,
+    type: "SKU",
+    original_type: "FlashSale",
+    item: {
+      product_id: 111873419,
+      name: "Hộp 12 Bút Chì Màu Kèm Đầu Tuốt Bút Cho Bé",
+      category_ids: [1, 2, 2259, 2697, 2699],
+      category_id: 2699,
+      shop_id: 976090,
+      seller_admin_id: 976090,
+      price: 45000,
+      max_price: 45000,
+      final_price: 45000,
+      shop_warehouse_city: "Đắk Lắk",
+      cat_path: "hop-12-but-chi-mau-kem-dau-tuot-but-cho-be-111873419.html",
+      external_id: 111873419,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_111873419",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/03_16/ICJl3F1fqfEhaB6bsdGR_simg_b5529c_250x250_maxb.png",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/03_16/ICJl3F1fqfEhaB6bsdGR.png",
+      min_price: "45.000đ",
+      price_range: "45.000đ",
+      original_price: "45.000đ",
+      promotion_sub_message: {},
+      shop_name: "3convitcon",
+      track_info:
+        "976090;0;app;111873419;Hộp 12 Bút Chì Màu Kèm Đầu Tuốt Bút Cho Bé;45.000đ;2699",
+      destination_url: "?product_prices=45000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/hop-12-but-chi-mau-kem-dau-tuot-but-cho-be-111873419.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=27",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 27,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 20103168,
+      name: "Trọn bộ 3 tập Dạy con kiểu Nhật - Dạy con thiên tài",
+      category_ids: [1, 2, 2259, 2264, 2308],
+      category_id: 2308,
+      shop_id: 607965,
+      seller_admin_id: 607965,
+      brand_id: 4632,
+      rating_percent: 5,
+      total_ratings: 2,
+      price: 237000,
+      max_price: 237000,
+      final_price: 201000,
+      special_price: 201000,
+      promotion_percentage: 16,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "tron-bo-3-tap-day-con-kieu-nhat-day-con-thien-tai-20103168.html",
+      external_id: 20103168,
+      app_discount_percentage: 2,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_20103168",
+      thumbnail_url:
+        "https://media3.scdn.vn/img3/2019/7_21/ksfUp6_simg_b5529c_250x250_maxb.jpg",
+      original_img_url: "https://media3.scdn.vn/img3/2019/7_21/ksfUp6.jpg",
+      min_price: "201.000đ",
+      price_range: "201.000đ",
+      original_price: "237.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sách Nghé",
+      is_shop_mall: true,
+      track_info:
+        "607965;4632;app;20103168;Trọn bộ 3 tập Dạy con kiểu Nhật - Dạy con thiên tài;201.000đ;2308",
+      order_count: 9,
+      order_count_text: "9",
+      final_promotion_percent: 16,
+      promotion_percent_upto: "Up 16%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=201000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/tron-bo-3-tap-day-con-kieu-nhat-day-con-thien-tai-20103168.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=28",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 28,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 110460133,
+      name: "Sách - Bộ công cụ mới",
+      category_ids: [1, 2, 2259, 2263, 2288],
+      category_id: 2288,
+      shop_id: 952713,
+      seller_admin_id: 952713,
+      brand_id: 4756,
+      price: 135000,
+      max_price: 135000,
+      final_price: 115000,
+      special_price: 115000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "sach-bo-cong-cu-moi-110460133.html",
+      external_id: 110460133,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_110460133",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/01_13/Yil5DyGVyBoiLrF3FxlL_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/01_13/Yil5DyGVyBoiLrF3FxlL.jpg",
+      min_price: "115.000đ",
+      price_range: "115.000đ",
+      original_price: "135.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "tiemsachbaonam",
+      is_shop_mall: true,
+      track_info:
+        "952713;4756;app;110460133;Sách - Bộ công cụ mới;115.000đ;2288",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=115000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-bo-cong-cu-moi-110460133.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=29",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 30,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 12580073,
+      name: "5 chiếc bấc đốt đèn cồn dài 15 cm",
+      category_ids: [1, 2, 2259, 2268, 2328],
+      category_id: 2328,
+      shop_id: 50891,
+      seller_admin_id: 50891,
+      rating_percent: 4.7,
+      total_ratings: 3,
+      price: 17600,
+      max_price: 17600,
+      final_price: 17600,
+      max_final_price: 17600,
+      special_price: 17600,
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "5-chiec-bac-dot-den-con-dai-15-cm-12580073.html",
+      external_id: 12580073,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_12580073",
+      is_shipping_supported: true,
+      thumbnail_url:
+        "https://media3.scdn.vn/img2/2018/10_31/B6i7bk_simg_b5529c_250x250_maxb.jpg",
+      original_img_url: "https://media3.scdn.vn/img2/2018/10_31/B6i7bk.jpg",
+      min_price: "17.600đ",
+      price_range: "17.600đ",
+      original_price: "17.600đ",
+      event_banners: [
+        {
+          type: "free-ship",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_09/0vChQUAK0qPDX3cOD6rV.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Kredivo",
+        text_color: "#133096",
+        bg_color: "#f1f3f9",
+        icon: "https://media3.scdn.vn/img4/2022/06_24/V5PHsdxRbMf35yH1KO0h.png",
+      },
+      shop_name: "Vật tư  Công nghiệp",
+      track_info:
+        "50891;0;app;12580073;5 chiếc bấc đốt đèn cồn dài 15 cm;17.600đ;2328",
+      order_count: 14,
+      order_count_text: "14",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=17600&uclid=",
+      deep_link:
+        "https://www.sendo.vn/5-chiec-bac-dot-den-con-dai-15-cm-12580073.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=31",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "free-ship",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 31,
+    type: "SKU",
+    original_type: "FlashSale",
+    item: {
+      product_id: 114444020,
+      name: "Bút máy 7006M tẩy được ngòi mài lá tre (1 cây)",
+      category_ids: [1, 2, 2259, 2697, 2699],
+      category_id: 2699,
+      shop_id: 978120,
+      seller_admin_id: 978120,
+      price: 23000,
+      max_price: 23000,
+      final_price: 23000,
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "but-may-7006m-tay-duoc-ngoi-mai-la-tre-1-cay-114444020.html",
+      external_id: 114444020,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_114444020",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/06_21/ce1KQCaR3G82dk0saZ0J_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/06_21/ce1KQCaR3G82dk0saZ0J.jpg",
+      min_price: "23.000đ",
+      price_range: "23.000đ",
+      original_price: "23.000đ",
+      promotion_sub_message: {},
+      shop_name: "Kim Minh Thư",
+      track_info:
+        "978120;0;app;114444020;Bút máy 7006M tẩy được ngòi mài lá tre (1 cây);23.000đ;2699",
+      destination_url: "?product_prices=23000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/but-may-7006m-tay-duoc-ngoi-mai-la-tre-1-cay-114444020.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=32",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 32,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 114072597,
+      name: "Vở Ôli Bài Tập Toán - Lớp 2 - Tập 2 - Chân Trời Sáng Tạo",
+      category_ids: [1, 2, 2259, 2260, 2270],
+      category_id: 2270,
+      shop_id: 975919,
+      seller_admin_id: 975919,
+      brand_id: 1435,
+      price: 40000,
+      max_price: 40000,
+      final_price: 40000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "vo-oli-bai-tap-toan-lop-2-tap-2-chan-troi-sang-tao-114072597.html",
+      external_id: 114072597,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_114072597",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/05_03/XmwYQOKbPUcH326tSggR_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/05_03/XmwYQOKbPUcH326tSggR.jpg",
+      min_price: "40.000đ",
+      price_range: "40.000đ",
+      original_price: "40.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhân Văn Online",
+      is_shop_mall: true,
+      track_info:
+        "975919;1435;app;114072597;Vở Ôli Bài Tập Toán - Lớp 2 - Tập 2 - Chân Trời Sáng Tạo;40.000đ;2270",
+      destination_url: "?product_prices=40000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/vo-oli-bai-tap-toan-lop-2-tap-2-chan-troi-sang-tao-114072597.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=33",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 33,
+    type: "SendoClick",
+    is_empty: true,
+  },
+  {
+    index: 34,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 108784588,
+      name: "Thám tử lừng danh Conan - Tuyển tập đặc biệt: Amuro Toru Selection",
+      category_ids: [1, 2, 2259, 2264, 2307],
+      category_id: 2307,
+      shop_id: 968273,
+      seller_admin_id: 968273,
+      brand_id: 1945,
+      price: 65000,
+      max_price: 65000,
+      final_price: 65000,
+      special_price: 64000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "tham-tu-lung-danh-conan-tuyen-tap-dac-biet-amuro-toru-selection-108784588.html",
+      external_id: 108784588,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_108784588",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/12_16/uukCg8f8gnoMFrXV5TG4_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/12_16/uukCg8f8gnoMFrXV5TG4.jpg",
+      min_price: "65.000đ",
+      price_range: "65.000đ",
+      original_price: "65.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Changbook",
+      is_shop_mall: true,
+      track_info:
+        "968273;1945;app;108784588;Thám tử lừng danh Conan - Tuyển tập đặc biệt: Amuro Toru Selection;65.000đ;2307",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=65000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/tham-tu-lung-danh-conan-tuyen-tap-dac-biet-amuro-toru-selection-108784588.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=35",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 35,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 111871978,
+      name: "Sách - Bắc Kỳ - Phong cảnh và ấn tượng",
+      category_ids: [1, 2, 2259, 2263, 2292],
+      category_id: 2292,
+      shop_id: 952713,
+      seller_admin_id: 952713,
+      brand_id: 1945,
+      price: 78000,
+      max_price: 78000,
+      final_price: 66300,
+      special_price: 66300,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "sach-bac-ky-phong-canh-va-an-tuong-111871978.html",
+      external_id: 111871978,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_111871978",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/03_16/SFSjw59GALehaUnSYkFo_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/03_16/SFSjw59GALehaUnSYkFo.jpg",
+      min_price: "66.300đ",
+      price_range: "66.300đ",
+      original_price: "78.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "tiemsachbaonam",
+      is_shop_mall: true,
+      track_info:
+        "952713;1945;app;111871978;Sách - Bắc Kỳ - Phong cảnh và ấn tượng;66.300đ;2292",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=66300&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-bac-ky-phong-canh-va-an-tuong-111871978.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=36",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 36,
+    type: "SKU",
+    original_type: "FlashSale",
+    item: {
+      product_id: 107144141,
+      name: "SÁCH - 10 vạn câu hỏi  - Chìa Khóa Mở Cửa Thế Giới - Em Muốn Biết Khi Nào - Nhã Uyên",
+      category_ids: [1, 2, 2259, 2692, 2693],
+      category_id: 2693,
+      shop_id: 967973,
+      seller_admin_id: 967973,
+      brand_id: 6075,
+      price: 98000,
+      max_price: 98000,
+      final_price: 69000,
+      special_price: 69000,
+      promotion_percentage: 30,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "sach-10-van-cau-hoi-chia-khoa-mo-cua-the-gioi-em-muon-biet-khi-nao-nha-uyen-107144141.html",
+      external_id: 107144141,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_107144141",
+      is_shipping_supported: true,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/11_16/RSIdfClVhnP2KhNALjpl_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/11_16/RSIdfClVhnP2KhNALjpl.jpg",
+      min_price: "69.000đ",
+      price_range: "69.000đ",
+      original_price: "98.000đ",
+      has_video: true,
+      img_highlight_urls: [
+        {
+          type: "video",
+          url: "https://media3.scdn.vn/img4/2020/11_05/nmvSW1QNpOxypp3Y9Lwm.png",
+        },
+      ],
+      event_banners: [
+        {
+          type: "free-ship",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_09/0vChQUAK0qPDX3cOD6rV.png",
+        },
+      ],
+      promotion_sub_message: {},
+      shop_name: "Việt Thư Books",
+      is_shop_mall: true,
+      track_info:
+        "967973;6075;app;107144141;SÁCH - 10 vạn câu hỏi  - Chìa Khóa Mở Cửa Thế Giới - Em Muốn Biết Khi Nào - Nhã Uyên;69.000đ;2693",
+      final_promotion_percent: 30,
+      promotion_percent_upto: "Up 30%",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      is_in_promotion: true,
+      destination_url: "?product_prices=69000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-10-van-cau-hoi-chia-khoa-mo-cua-the-gioi-em-muon-biet-khi-nao-nha-uyen-107144141.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=37",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "free-ship",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 37,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 97542806,
+      name: "Sách Giáo Dục Giới tính Và Nhân Cách Dành Cho Bé Gái - Đinh Tị",
+      category_ids: [1, 2, 2259, 2692, 2693],
+      category_id: 2693,
+      shop_id: 879878,
+      seller_admin_id: 879878,
+      brand_id: 4754,
+      price: 128000,
+      max_price: 128000,
+      final_price: 32000,
+      max_final_price: 128000,
+      special_price: 32000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "sach-giao-duc-gioi-tinh-va-nhan-cach-danh-cho-be-gai-dinh-ti-97542806.html",
+      external_id: 97542806,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_97542806",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/08_02/fXoQVxxOp8H2OBiw1Asm_simg_b5529c_250x250_maxb.png",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/08_02/fXoQVxxOp8H2OBiw1Asm.png",
+      min_price: "32.000đ",
+      price_range: "32.000đ - 128.000đ",
+      original_price: "128.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "LinhKhaHCM",
+      is_shop_mall: true,
+      track_info:
+        "879878;4754;app;97542806;Sách Giáo Dục Giới tính Và Nhân Cách Dành Cho Bé Gái - Đinh Tị;32.000đ;2693",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=128000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-giao-duc-gioi-tinh-va-nhan-cach-danh-cho-be-gai-dinh-ti-97542806.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=38",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 38,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 44467464,
+      name: 'Combo Tuổi Dậy Thì Nói Gì Với Con + Nổi Loạn Tuổi Teen + Chào Tuổi "Dâu Rụng" (3 Cuốn)',
+      category_ids: [1, 2, 2259, 2266, 2319],
+      category_id: 2319,
+      shop_id: 607965,
+      seller_admin_id: 607965,
+      brand_id: 4632,
+      price: 195000,
+      max_price: 195000,
+      final_price: 166000,
+      special_price: 166000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "combo-tuoi-day-thi-noi-gi-voi-con-noi-loan-tuoi-teen-chao-tuoi-dau-rung-3-cuon-44467464.html",
+      external_id: 44467464,
+      app_discount_percentage: 2,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_44467464",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2021/05_25/R1NPEp4DOvK0YVzwYlH2_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2021/05_25/R1NPEp4DOvK0YVzwYlH2.jpg",
+      min_price: "166.000đ",
+      price_range: "166.000đ",
+      original_price: "195.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sách Nghé",
+      is_shop_mall: true,
+      track_info:
+        '607965;4632;app;44467464;Combo Tuổi Dậy Thì Nói Gì Với Con + Nổi Loạn Tuổi Teen + Chào Tuổi "Dâu Rụng" (3 Cuốn);166.000đ;2319',
+      order_count: 2,
+      order_count_text: "2",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=166000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/combo-tuoi-day-thi-noi-gi-voi-con-noi-loan-tuoi-teen-chao-tuoi-dau-rung-3-cuon-44467464.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=39",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 40,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 110162675,
+      name: "Các Loại Hình Báo Chí Truyền Thông",
+      category_ids: [1, 2, 2259, 2262, 2278],
+      category_id: 2278,
+      shop_id: 973225,
+      seller_admin_id: 973225,
+      brand_id: 5809,
+      price: 75000,
+      max_price: 75000,
+      final_price: 64000,
+      special_price: 64000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "cac-loai-hinh-bao-chi-truyen-thong-110162675.html",
+      external_id: 110162675,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_110162675",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/01_09/FIJsaRXOSIFmwp2jcMmm_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/01_09/FIJsaRXOSIFmwp2jcMmm.jpg",
+      min_price: "64.000đ",
+      price_range: "64.000đ",
+      original_price: "75.000đ",
+      promotion_sub_message: {},
+      shop_name: "baochaubooks",
+      is_shop_mall: true,
+      track_info:
+        "973225;5809;app;110162675;Các Loại Hình Báo Chí Truyền Thông;64.000đ;2278",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=64000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/cac-loai-hinh-bao-chi-truyen-thong-110162675.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=41",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 41,
+    type: "SKU",
+    original_type: "FlashSale",
+    item: {
+      product_id: 100349767,
+      name: "Sách - Hoa trên mộ Algernon (Nhã Nam HCM)",
+      category_ids: [1, 2, 2259, 2264, 2303],
+      category_id: 2303,
+      shop_id: 956442,
+      seller_admin_id: 956442,
+      brand_id: 4631,
+      price: 150000,
+      max_price: 150000,
+      final_price: 120000,
+      special_price: 120000,
+      promotion_percentage: 20,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "sach-hoa-tren-mo-algernon-nha-nam-hcm-100349767.html",
+      external_id: 100349767,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_100349767",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/08_30/rmOys2V5B5Ejx9rb4z8H_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/08_30/rmOys2V5B5Ejx9rb4z8H.jpg",
+      min_price: "120.000đ",
+      price_range: "120.000đ",
+      original_price: "150.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhã Nam HCM",
+      is_shop_mall: true,
+      track_info:
+        "956442;4631;app;100349767;Sách - Hoa trên mộ Algernon (Nhã Nam HCM);120.000đ;2303",
+      final_promotion_percent: 20,
+      promotion_percent_upto: "Up 20%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=120000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-hoa-tren-mo-algernon-nha-nam-hcm-100349767.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=42",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 42,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 3288404,
+      name: "3 cây Bút Bi Ma Thuật Viết Xong Xóa Được",
+      category_ids: [1, 2, 2259, 2268, 2328],
+      category_id: 2328,
+      shop_id: 30591,
+      seller_admin_id: 30591,
+      rating_percent: 5,
+      total_ratings: 1,
+      price: 47000,
+      max_price: 47000,
+      final_price: 47000,
+      max_final_price: 47000,
+      special_price: 47000,
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "3-cay-but-bi-ma-thuat-viet-xong-xoa-duoc-3288404.html",
+      external_id: 3288404,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_3288404",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2021/07_13/96HSleVooTGF2xm2Zwqf_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2021/07_13/96HSleVooTGF2xm2Zwqf.jpg",
+      min_price: "47.000đ",
+      price_range: "47.000đ",
+      original_price: "47.000đ",
+      has_video: true,
+      img_highlight_urls: [
+        {
+          type: "video",
+          url: "https://media3.scdn.vn/img4/2020/11_05/nmvSW1QNpOxypp3Y9Lwm.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Kredivo",
+        text_color: "#133096",
+        bg_color: "#f1f3f9",
+        icon: "https://media3.scdn.vn/img4/2022/06_24/V5PHsdxRbMf35yH1KO0h.png",
+      },
+      shop_name: "HƯNG THỊNH",
+      track_info:
+        "30591;0;app;3288404;3 cây Bút Bi Ma Thuật Viết Xong Xóa Được;47.000đ;2328",
+      order_count: 82,
+      order_count_text: "82",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=47000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/3-cay-but-bi-ma-thuat-viet-xong-xoa-duoc-3288404.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=43",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 43,
+    type: "SendoClick",
+    is_empty: true,
+  },
+  {
+    index: 44,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 97543481,
+      name: "Mind Map - Sơ Đồ Tư Duy Từ Vựng Và Mẫu Câu tiếng Anh Thông Dụng Cho Trẻ 3 - 15 Tuổi -  Đinh Tị Books",
+      category_ids: [1, 2, 2259, 2261, 2275],
+      category_id: 2275,
+      shop_id: 879878,
+      seller_admin_id: 879878,
+      brand_id: 4754,
+      price: 210000,
+      max_price: 210000,
+      final_price: 65000,
+      max_final_price: 210000,
+      special_price: 65000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "mind-map-so-do-tu-duy-tu-vung-va-mau-cau-tieng-anh-thong-dung-cho-tre-3-15-tuoi-dinh-ti-books-97543481.html",
+      external_id: 97543481,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_97543481",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/08_02/mquvJKQm3Pr42BSTr2JE_simg_b5529c_250x250_maxb.png",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/08_02/mquvJKQm3Pr42BSTr2JE.png",
+      min_price: "65.000đ",
+      price_range: "65.000đ - 210.000đ",
+      original_price: "210.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "LinhKhaHCM",
+      is_shop_mall: true,
+      track_info:
+        "879878;4754;app;97543481;Mind Map - Sơ Đồ Tư Duy Từ Vựng Và Mẫu Câu tiếng Anh Thông Dụng Cho Trẻ 3 - 15 Tuổi -  Đinh Tị Books;65.000đ;2275",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=210000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/mind-map-so-do-tu-duy-tu-vung-va-mau-cau-tieng-anh-thong-dung-cho-tre-3-15-tuoi-dinh-ti-books-97543481.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=45",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 45,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 44479441,
+      name: "Combo Bình An Trong Nhân Gian + Muốn An Được An (Bộ 2 Cuốn)",
+      category_ids: [1, 2, 2259, 2265, 2311],
+      category_id: 2311,
+      shop_id: 607965,
+      seller_admin_id: 607965,
+      brand_id: 4632,
+      price: 101000,
+      max_price: 101000,
+      final_price: 86000,
+      special_price: 86000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "combo-binh-an-trong-nhan-gian-muon-an-duoc-an-bo-2-cuon-44479441.html",
+      external_id: 44479441,
+      app_discount_percentage: 2,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_44479441",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2021/05_25/bAK4QjYmDYOdd2pSp8BU_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2021/05_25/bAK4QjYmDYOdd2pSp8BU.jpg",
+      min_price: "86.000đ",
+      price_range: "86.000đ",
+      original_price: "101.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sách Nghé",
+      is_shop_mall: true,
+      track_info:
+        "607965;4632;app;44479441;Combo Bình An Trong Nhân Gian + Muốn An Được An (Bộ 2 Cuốn);86.000đ;2311",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=86000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/combo-binh-an-trong-nhan-gian-muon-an-duoc-an-bo-2-cuon-44479441.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=46",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 46,
+    type: "SKU",
+    original_type: "FlashSale",
+    item: {
+      product_id: 112116384,
+      name: "Giáo Trình Hán Ngữ 4 - Tập 2: Quyển Hạ (Phiên Bản 3)",
+      category_ids: [1, 2, 2259, 2261, 2275],
+      category_id: 2275,
+      shop_id: 975919,
+      seller_admin_id: 975919,
+      brand_id: 4630,
+      price: 148000,
+      max_price: 148000,
+      final_price: 148000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "giao-trinh-han-ngu-4-tap-2-quyen-ha-phien-ban-3-112116384.html",
+      external_id: 112116384,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_112116384",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/03_23/DrAbkkakCMFqcvRODeNd_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/03_23/DrAbkkakCMFqcvRODeNd.jpg",
+      min_price: "148.000đ",
+      price_range: "148.000đ",
+      original_price: "148.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhân Văn Online",
+      is_shop_mall: true,
+      track_info:
+        "975919;4630;app;112116384;Giáo Trình Hán Ngữ 4 - Tập 2: Quyển Hạ (Phiên Bản 3);148.000đ;2275",
+      destination_url: "?product_prices=148000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/giao-trinh-han-ngu-4-tap-2-quyen-ha-phien-ban-3-112116384.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=47",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 47,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 11500121,
+      name: "COMBO 5 GỌT BÚT CHÌ DELI",
+      category_ids: [1, 2, 2259, 2268, 2328],
+      category_id: 2328,
+      shop_id: 324123,
+      seller_admin_id: 324123,
+      rating_percent: 5,
+      total_ratings: 9,
+      price: 25000,
+      max_price: 25000,
+      final_price: 25000,
+      max_final_price: 25000,
+      special_price: 25000,
+      shop_badge_urls: [
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+      shop_warehouse_city: "Hà Nội",
+      cat_path: "combo-5-got-but-chi-deli-11500121.html",
+      external_id: 11500121,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_11500121",
+      thumbnail_url:
+        "https://media3.scdn.vn/img2/2018/9_2/FXAYWH_simg_b5529c_250x250_maxb.jpg",
+      original_img_url: "https://media3.scdn.vn/img2/2018/9_2/FXAYWH.jpg",
+      min_price: "25.000đ",
+      price_range: "25.000đ",
+      original_price: "25.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Kredivo",
+        text_color: "#133096",
+        bg_color: "#f1f3f9",
+        icon: "https://media3.scdn.vn/img4/2022/06_24/V5PHsdxRbMf35yH1KO0h.png",
+      },
+      shop_name: "Nhà sách Đăng Khoa",
+      track_info: "324123;0;app;11500121;COMBO 5 GỌT BÚT CHÌ DELI;25.000đ;2328",
+      order_count: 15,
+      order_count_text: "15",
+      destination_url: "?product_prices=25000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/combo-5-got-but-chi-deli-11500121.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=48",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 48,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 97457963,
+      name: "Sách Tiếng Anh Giao Tiếp Cho Trẻ Em - Cho Bé 3-9 Tuổi Học Tiếng Anh Thật Dễ Dàng -  Đinh Tị",
+      category_ids: [1, 2, 2259, 2261, 2275],
+      category_id: 2275,
+      shop_id: 879878,
+      seller_admin_id: 879878,
+      brand_id: 4754,
+      price: 251000,
+      max_price: 251000,
+      final_price: 78000,
+      max_final_price: 251000,
+      special_price: 78000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "sach-tieng-anh-giao-tiep-cho-tre-em-cho-be-3-9-tuoi-hoc-tieng-anh-that-de-dang-dinh-ti-97457963.html",
+      external_id: 97457963,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_97457963",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/08_01/n5iICMzuBoN99JBgfY6N_simg_b5529c_250x250_maxb.png",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/08_01/n5iICMzuBoN99JBgfY6N.png",
+      min_price: "78.000đ",
+      price_range: "78.000đ - 251.000đ",
+      original_price: "251.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "LinhKhaHCM",
+      is_shop_mall: true,
+      track_info:
+        "879878;4754;app;97457963;Sách Tiếng Anh Giao Tiếp Cho Trẻ Em - Cho Bé 3-9 Tuổi Học Tiếng Anh Thật Dễ Dàng -  Đinh Tị;78.000đ;2275",
+      order_count: 1,
+      order_count_text: "1",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=251000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-tieng-anh-giao-tiep-cho-tre-em-cho-be-3-9-tuoi-hoc-tieng-anh-that-de-dang-dinh-ti-97457963.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=49",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 50,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 98681975,
+      name: "Voi Mamut Moppet Đã Thích Tắm Như Thế Nào (Bộ Chú Voi Moppet Vui Vẻ - Song Ngữ Anh Việt)",
+      category_ids: [1, 2, 2259, 2692, 2693],
+      category_id: 2693,
+      shop_id: 784178,
+      seller_admin_id: 784178,
+      brand_id: 6063,
+      price: 19000,
+      max_price: 19000,
+      final_price: 19000,
+      special_price: 9500,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "voi-mamut-moppet-da-thich-tam-nhu-the-nao-bo-chu-voi-moppet-vui-ve-song-ngu-anh-viet-98681975.html",
+      external_id: 98681975,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_98681975",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/08_11/peceR17ZegrHcUhV874N_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/08_11/peceR17ZegrHcUhV874N.jpg",
+      min_price: "19.000đ",
+      price_range: "19.000đ",
+      original_price: "19.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhà sách Chibooks",
+      is_shop_mall: true,
+      track_info:
+        "784178;6063;app;98681975;Voi Mamut Moppet Đã Thích Tắm Như Thế Nào (Bộ Chú Voi Moppet Vui Vẻ - Song Ngữ Anh Việt);19.000đ;2693",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=19000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/voi-mamut-moppet-da-thich-tam-nhu-the-nao-bo-chu-voi-moppet-vui-ve-song-ngu-anh-viet-98681975.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=51",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 51,
+    type: "DailySale",
+    item: {
+      button_text: "Mua ngay",
+      buy_limit: 3,
+      final_price: 59000,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2020/09_18/NP7CNhgD5a6VKPtCHZN5_simg_de2fe0_100x100_maxb.jpg",
+      name: "Bảng Học Sinh Điện Tử Thông Minh, Tập Viết Chữ,Tô Vẽ Cho Bé,Tự Xóa,Màn Hình LCD 8.5 inch",
+      price: 120000,
+      product_id: 22963277,
+      promotion_percentage: 51,
+      quantity: 10,
+      remaining: 10,
+      url_key:
+        "https://www.sendo.vn/bang-hoc-sinh-dien-tu-thong-minh-tap-viet-chu-to-ve-cho-be-tu-xoa-man-hinh-lcd-85-inch-22963277.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=DailySale&source_block_id=feed&source_page_id=cate1&source_position=52",
+      cat_path:
+        "bang-hoc-sinh-dien-tu-thong-minh-tap-viet-chu-to-ve-cho-be-tu-xoa-man-hinh-lcd-85-inch-22963277.html",
+      item_type: "21",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      track_meta: {
+        algo_type: "",
+        original_type: "DailySale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+      promotion_sub_message: {},
+    },
+  },
+  {
+    index: 52,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 109447876,
+      name: "sách - Ngoại Ngữ - 38 Chủ Đề Từ Vựng Thiết Yếu Cho IELTS 7.0",
+      category_ids: [1, 2, 2259, 2261, 2274],
+      category_id: 2274,
+      shop_id: 967973,
+      seller_admin_id: 967973,
+      brand_id: 6104,
+      price: 150000,
+      max_price: 150000,
+      final_price: 128000,
+      special_price: 128000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "sach-ngoai-ngu-38-chu-de-tu-vung-thiet-yeu-cho-ielts-70-109447876.html",
+      external_id: 109447876,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_109447876",
+      is_shipping_supported: true,
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/12_28/V3824U6k1NdJxORzB6lM_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/12_28/V3824U6k1NdJxORzB6lM.jpg",
+      min_price: "128.000đ",
+      price_range: "128.000đ",
+      original_price: "150.000đ",
+      event_banners: [
+        {
+          type: "free-ship",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_09/0vChQUAK0qPDX3cOD6rV.png",
+        },
+      ],
+      promotion_sub_message: {},
+      shop_name: "Việt Thư Books",
+      is_shop_mall: true,
+      track_info:
+        "967973;6104;app;109447876;sách - Ngoại Ngữ - 38 Chủ Đề Từ Vựng Thiết Yếu Cho IELTS 7.0;128.000đ;2274",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      is_in_promotion: true,
+      destination_url: "?product_prices=128000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-ngoai-ngu-38-chu-de-tu-vung-thiet-yeu-cho-ielts-70-109447876.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=53",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "free-ship",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 54,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 25776369,
+      name: "Sách Thái Hà Books - Nguyên tắc thiết kế slide chuẩn TED",
+      category_ids: [1, 2, 2259, 2262, 2284],
+      category_id: 2284,
+      shop_id: 607965,
+      seller_admin_id: 607965,
+      brand_id: 4632,
+      rating_percent: 5,
+      total_ratings: 1,
+      price: 65000,
+      max_price: 65000,
+      final_price: 55000,
+      special_price: 55000,
+      promotion_percentage: 16,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "sach-thai-ha-books-nguyen-tac-thiet-ke-slide-chuan-ted-25776369.html",
+      external_id: 25776369,
+      app_discount_percentage: 2,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_25776369",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2020/02_11/CjCZuAq8IujSJniNHDGn_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2020/02_11/CjCZuAq8IujSJniNHDGn.jpg",
+      min_price: "55.000đ",
+      price_range: "55.000đ",
+      original_price: "65.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sách Nghé",
+      is_shop_mall: true,
+      track_info:
+        "607965;4632;app;25776369;Sách Thái Hà Books - Nguyên tắc thiết kế slide chuẩn TED;55.000đ;2284",
+      order_count: 1,
+      order_count_text: "1",
+      final_promotion_percent: 16,
+      promotion_percent_upto: "Up 16%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=55000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-thai-ha-books-nguyen-tac-thiet-ke-slide-chuan-ted-25776369.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=55",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 55,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 114055031,
+      name: "Nếu Tôi Biết Được Khi Còn 20 Và Bạn Thật Sự Có Tài (Combo 2 Cuốn) Tina Seelig New 100% ASB2802",
+      category_ids: [1, 2, 2259, 2267, 2323],
+      category_id: 2323,
+      shop_id: 970525,
+      seller_admin_id: 970525,
+      brand_id: 1910,
+      price: 149000,
+      max_price: 149000,
+      final_price: 149000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "neu-toi-biet-duoc-khi-con-20-va-ban-that-su-co-tai-combo-2-cuon-tina-seelig-new-100-asb2802-114055031.html",
+      external_id: 114055031,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_114055031",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/04_30/4PKV2lP3y3XQIfIwi11q_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/04_30/4PKV2lP3y3XQIfIwi11q.jpg",
+      min_price: "149.000đ",
+      price_range: "149.000đ",
+      original_price: "149.000đ",
+      promotion_sub_message: {},
+      shop_name: "Tiệm Sách Blog Mèo",
+      is_shop_mall: true,
+      track_info:
+        "970525;1910;app;114055031;Nếu Tôi Biết Được Khi Còn 20 Và Bạn Thật Sự Có Tài (Combo 2 Cuốn) Tina Seelig New 100% ASB2802;149.000đ;2323",
+      destination_url: "?product_prices=149000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/neu-toi-biet-duoc-khi-con-20-va-ban-that-su-co-tai-combo-2-cuon-tina-seelig-new-100-asb2802-114055031.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=56",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 56,
+    type: "SKU",
+    original_type: "FlashSale",
+    item: {
+      product_id: 114072580,
+      name: "Tiếng Anh 7 - Friends Plus - Student Book",
+      category_ids: [1, 2, 2259, 2260, 2270],
+      category_id: 2270,
+      shop_id: 975919,
+      seller_admin_id: 975919,
+      brand_id: 1435,
+      price: 99000,
+      max_price: 99000,
+      final_price: 99000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "tieng-anh-7-friends-plus-student-book-114072580.html",
+      external_id: 114072580,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_114072580",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2023/05_03/bkSPVZ8GfuLavHLNEnBJ_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2023/05_03/bkSPVZ8GfuLavHLNEnBJ.jpg",
+      min_price: "99.000đ",
+      price_range: "99.000đ",
+      original_price: "99.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Nhân Văn Online",
+      is_shop_mall: true,
+      track_info:
+        "975919;1435;app;114072580;Tiếng Anh 7 - Friends Plus - Student Book;99.000đ;2270",
+      destination_url: "?product_prices=99000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/tieng-anh-7-friends-plus-student-book-114072580.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=57",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "FlashSale",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 57,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 97449180,
+      name: "Sách - Bách Khoa Toàn Thư - Dạng Tập Mỏng Xâu Khoen Cho Các Bé Nhỏ - Tân Việt",
+      category_ids: [1, 2, 2259, 2692, 2693],
+      category_id: 2693,
+      shop_id: 879878,
+      seller_admin_id: 879878,
+      brand_id: 5710,
+      price: 70000,
+      max_price: 70000,
+      final_price: 48000,
+      max_final_price: 70000,
+      special_price: 48000,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path:
+        "sach-bach-khoa-toan-thu-dang-tap-mong-xau-khoen-cho-cac-be-nho-tan-viet-97449180.html",
+      external_id: 97449180,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_97449180",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2022/08_01/I5o8ISbap3CQ8ud6Qf9k_simg_b5529c_250x250_maxb.png",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2022/08_01/I5o8ISbap3CQ8ud6Qf9k.png",
+      min_price: "48.000đ",
+      price_range: "48.000đ - 70.000đ",
+      original_price: "70.000đ",
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "LinhKhaHCM",
+      is_shop_mall: true,
+      track_info:
+        "879878;5710;app;97449180;Sách - Bách Khoa Toàn Thư - Dạng Tập Mỏng Xâu Khoen Cho Các Bé Nhỏ - Tân Việt;48.000đ;2693",
+      icon_promote: ["https://media3.scdn.vn/img3/2019/2_18/OGiTR5.png"],
+      destination_url: "?product_prices=70000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-bach-khoa-toan-thu-dang-tap-mong-xau-khoen-cho-cac-be-nho-tan-viet-97449180.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=58",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "",
+        promotion_type: 0,
+      },
+    },
+  },
+  {
+    index: 58,
+    type: "SKU",
+    original_type: "SKU",
+    item: {
+      product_id: 40723408,
+      name: "Sách NXB Trẻ - Doanh Nghiệp Của Thế Kỷ 21",
+      category_ids: [1, 2, 2259, 2262, 2278],
+      category_id: 2278,
+      shop_id: 607965,
+      seller_admin_id: 607965,
+      brand_id: 1910,
+      price: 110000,
+      max_price: 110000,
+      final_price: 94000,
+      special_price: 94000,
+      promotion_percentage: 15,
+      shop_badge_urls: [
+        {
+          type: "shop_mall",
+          icon_url:
+            "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+        },
+        {
+          type: "shop_plus",
+          icon_url:
+            "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
+        },
+      ],
+      shop_badge_url:
+        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
+      shop_warehouse_city: "TP.HCM",
+      cat_path: "sach-nxb-tre-doanh-nghiep-cua-the-ky-21-40723408.html",
+      external_id: 40723408,
+      app_discount_percentage: 2,
+      item_type: "9",
+      request_id: "9dafdc5d-42e9-43f8-9496-8445f4fccc29",
+      uid: "fallback_hotsale_40723408",
+      thumbnail_url:
+        "https://media3.scdn.vn/img4/2021/01_28/Srt35SbKmnH3G7tvBuIG_simg_b5529c_250x250_maxb.jpg",
+      original_img_url:
+        "https://media3.scdn.vn/img4/2021/01_28/Srt35SbKmnH3G7tvBuIG.jpg",
+      min_price: "94.000đ",
+      price_range: "94.000đ",
+      original_price: "110.000đ",
+      event_banners: [
+        {
+          type: "mega-voucher",
+          image:
+            "https://media3.scdn.vn/img4/2022/11_11/OFybuwWejhmkc0t6xqJ4.png",
+        },
+      ],
+      promotion_sub_message: {
+        type: "pay_later",
+        text: "Trả góp Muadee",
+        text_color: "#3f4b53",
+        bg_color: "#f2f3f4",
+        icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
+      },
+      shop_name: "Sách Nghé",
+      is_shop_mall: true,
+      track_info:
+        "607965;1910;app;40723408;Sách NXB Trẻ - Doanh Nghiệp Của Thế Kỷ 21;94.000đ;2278",
+      order_count: 4,
+      order_count_text: "4",
+      final_promotion_percent: 15,
+      promotion_percent_upto: "Up 15%",
+      is_in_promotion: true,
+      destination_url: "?product_prices=94000&uclid=",
+      deep_link:
+        "https://www.sendo.vn/sach-nxb-tre-doanh-nghiep-cua-the-ky-21-40723408.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=59",
+      track_meta: {
+        algo_type: "hotsale_fallback",
+        original_type: "SKU",
+        slot_id: "",
+        promotion_campaign_id: 0,
+        badge_list: "mega-voucher",
+        promotion_type: 0,
+      },
+    },
+  },
+];

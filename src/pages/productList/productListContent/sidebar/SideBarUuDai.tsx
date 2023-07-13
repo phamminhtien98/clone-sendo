@@ -18,6 +18,7 @@ interface IAttribute {
 const SideBarUuDai = ({ dataFilter }: Props) => {
   const [showMore, setShowMore] = useState(true);
   const [btnShow, setBtnShow] = useState(false);
+  let countItem = 0;
   const data = dataFilter.filter(
     (item) => item.attribute_term === "GeneralTerm"
   );
@@ -50,49 +51,52 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
       </div>
       {totalAttribute_value && showMore && (
         <div className={`flex flex-col overflow-hidden mt-3`}>
-          {totalAttribute_value.map((item, index) =>
-            index <= 3 ? (
-              <div
-                className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
-                key={index}
-              >
-                <input
-                  className="w-[18px] h-[18px] cursor-pointer"
-                  type="checkbox"
-                  name=""
-                  id={`${data[0].attribute_term}${index}`}
-                  value={item.name}
-                />
-                <label
-                  className="ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer"
-                  htmlFor={`${data[0].attribute_term}${index}`}
-                >
-                  {item.name}
-                </label>
-              </div>
-            ) : (
-              btnShow && (
+          {data.map((item) => {
+            return item.attribute_value?.map((itemAtt) => {
+              countItem++;
+              return countItem <= 4 ? (
                 <div
                   className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
-                  key={index}
+                  key={countItem}
                 >
                   <input
-                    className="w-[18px] h-[18px]"
+                    className="w-[18px] h-[18px] cursor-pointer"
                     type="checkbox"
                     name=""
-                    id={`${data[0].attribute_term}${index}`}
-                    value={item.name}
+                    id={`${item.attribute_term}${countItem}`}
+                    value={itemAtt.name}
                   />
                   <label
                     className="ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer"
-                    htmlFor={`${data[0].attribute_term}${index}`}
+                    htmlFor={`${item.attribute_term}${countItem}`}
                   >
-                    {item.name}
+                    {itemAtt.name}
                   </label>
                 </div>
-              )
-            )
-          )}
+              ) : (
+                btnShow && (
+                  <div
+                    className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
+                    key={countItem}
+                  >
+                    <input
+                      className="w-[18px] h-[18px] cursor-pointer"
+                      type="checkbox"
+                      name=""
+                      id={`${item.attribute_term}${countItem}`}
+                      value={itemAtt.name}
+                    />
+                    <label
+                      className="ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer"
+                      htmlFor={`${item.attribute_term}${countItem}`}
+                    >
+                      {itemAtt.name}
+                    </label>
+                  </div>
+                )
+              );
+            });
+          })}
           {totalAttribute_value.length > 4 && (
             <div
               className="flex justify-center"

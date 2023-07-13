@@ -4,6 +4,7 @@ import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
 import { useState } from "react";
 import { Categories } from "../../../../@Types/Types";
+import Tooltip from "../../../../components/tooltip/Tooltip";
 interface Props {
   categories: Categories[];
   handleSelectCategory: (category: Categories) => void;
