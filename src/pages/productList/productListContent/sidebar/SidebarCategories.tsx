@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import iconDownArrow from "../../../../assets/svg/downArrow.svg";
 import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
@@ -18,33 +18,47 @@ const CategoriesChil = ({ category, handleSelectCategory }: Props2) => {
   const [showMoreSubMenu, setShowMoreSubMenu] = useState(false);
   return (
     <>
-      <div className="px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] hover:font-[700] rounded-[4px] cursor-pointer">
-        {category.sub_category && (
-          <button
-            className="p-[0.5rem] rounded-[4px]"
-            onClick={() => {
-              setShowMoreSubMenu(!showMoreSubMenu);
-            }}
-          >
-            <img
-              src={iconDownArrow}
-              alt=""
-              className={`max-w-[12px] h-[12px] ${
-                showMoreSubMenu ? "" : "rotate-180"
-              }`}
-            />
-          </button>
+      <NavLink
+        to={`/${category.cate_path}`}
+        className={({ isActive }) =>
+          isActive ? "text-[#ee2624] font-[700]" : ""
+        }
+        onClick={() => {
+          handleSelectCategory(category);
+        }}
+      >
+        {({ isActive }) => (
+          <div className="px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] hover:font-[700] rounded-[4px] cursor-pointer">
+            {category.sub_category && (
+              <button
+                className="p-[0.5rem] rounded-[4px]"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setShowMoreSubMenu(!showMoreSubMenu);
+                }}
+              >
+                <svg
+                  className={`max-w-[12px] h-[12px] ${
+                    showMoreSubMenu ? "" : "rotate-180"
+                  }`}
+                  style={{ fill: `${isActive ? "#ee2624" : ""}` }}
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                >
+                  <path d="M12 13.214 17.524 8 19 9.393 12 16 5 9.393 6.476 8z"></path>
+                </svg>
+              </button>
+            )}
+
+            <span
+              className={` text-[14px] ml-[0.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1`}
+            >
+              {category.name}
+            </span>
+          </div>
         )}
-        <Link
-          to={category.path}
-          className={` text-[14px] ml-[0.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1`}
-          onClick={() => {
-            handleSelectCategory(category);
-          }}
-        >
-          {category.name}
-        </Link>
-      </div>
+      </NavLink>
       {category.sub_category &&
         showMoreSubMenu &&
         category.sub_category.map((category, index) => (
@@ -65,31 +79,44 @@ const CategoriesParent = ({ category, handleSelectCategory }: Props2) => {
   return (
     <>
       <div>
-        <div className="px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] rounded-[4px] cursor-pointer">
-          <button
-            className="p-[0.5rem] rounded-[4px]"
-            onClick={() => {
-              setShowMoreSubMenu(!showMoreSubMenu);
-            }}
-          >
-            <img
-              src={iconDownArrow}
-              alt=""
-              className={`max-w-[12px] h-[12px] ${
-                showMoreSubMenu ? "" : "rotate-180"
-              }`}
-            />
-          </button>
-          <Link
-            to={category.path}
-            className={`font-[700] text-[14px] ml-[0.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1`}
-            onClick={() => {
-              handleSelectCategory(category);
-            }}
-          >
-            {category.name}
-          </Link>
-        </div>
+        <NavLink
+          to={`/${category.cate_path}`}
+          className={({ isActive }) =>
+            isActive ? "text-[#ee2624] font-[700]" : ""
+          }
+          onClick={() => {
+            handleSelectCategory(category);
+          }}
+        >
+          {({ isActive }) => (
+            <div className="px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] rounded-[4px] cursor-pointer">
+              <button
+                className="p-[0.5rem] rounded-[4px]"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setShowMoreSubMenu(!showMoreSubMenu);
+                }}
+              >
+                <svg
+                  className={`max-w-[12px] h-[12px] ${
+                    showMoreSubMenu ? "" : "rotate-180"
+                  }`}
+                  style={{ fill: `${isActive ? "#ee2624" : ""}` }}
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  version="1.1"
+                >
+                  <path d="M12 13.214 17.524 8 19 9.393 12 16 5 9.393 6.476 8z"></path>
+                </svg>
+              </button>
+              <span
+                className={`font-[700] text-[14px] ml-[0.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1`}
+              >
+                {category.name}
+              </span>
+            </div>
+          )}
+        </NavLink>
         {category.sub_category && showMoreSubMenu && (
           <div className="flex flex-col pl-[1.2rem]">
             {category.sub_category.map((category, index) => {

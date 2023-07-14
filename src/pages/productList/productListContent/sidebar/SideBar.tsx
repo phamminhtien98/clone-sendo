@@ -1,5 +1,6 @@
 import { Categories, IDataFilter } from "../../../../@Types/Types";
 import SideBarCheckBox from "./SideBarCheckBox";
+import SideBarCheckBoxEP from "./SideBarCheckBoxEP";
 import SideBarDanhGia from "./SideBarDanhGia";
 import SideBarKhoangGia from "./SideBarKhoangGia";
 import SideBarUuDai from "./SideBarUuDai";
@@ -24,12 +25,12 @@ const SideBar = ({ categories, handleSelectCategory, dataFilter }: Props) => {
         attribute_key="shop_warehouse_city_id"
       />
       <hr className="h-[1px] text-[#0f1e29]" />
-      <SideBarCheckBox
+      <SideBarCheckBoxEP
         dataFilter={dataFilter}
         attribute_key="shipping_method"
       />
       <hr className="h-[1px] text-[#0f1e29]" />
-      <SideBarCheckBox dataFilter={dataFilter} attribute_key="shop_type" />
+      <SideBarCheckBoxEP dataFilter={dataFilter} attribute_key="shop_type" />
       <hr className="h-[1px] text-[#0f1e29]" />
       <SideBarUuDai dataFilter={dataFilter} />
       <hr className="h-[1px] text-[#0f1e29]" />

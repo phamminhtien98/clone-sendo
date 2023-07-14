@@ -9,7 +9,7 @@ const ProductFlashSale = ({ data }: Props) => {
     <div className="p-[0.8rem]">
       <Link to={""} className="text-[#0f1e29]">
         <div
-          className="bg-white rounded-[8px] cursor-pointer overflow-hidden flex flex-col py-[1.2rem] px-[0.8rem]"
+          className="bg-white rounded-[8px] cursor-pointer overflow-hidden flex flex-col py-[1.2rem] px-[0.8rem] hover:drop-shadow-[0_8px_16px_rgba(0,0,0,0.12)]"
           style={{
             backgroundImage: "linear-gradient(180deg,#fff 14%,#fbdcc5)",
             boxShadow:
@@ -71,7 +71,7 @@ const ProductFlashSale = ({ data }: Props) => {
                   {data.item.promotion_percentage && (
                     <>
                       <span className="text-[#b7bbbf] text-[11px] leading-[1.2rem] line-through">
-                        {data.item.price.toLocaleString("vi-VN")}đ
+                        {data.item.price_range}
                       </span>
                       <span className="text-[#ee2624] text-[12px] leading-[1.6rem] ml-[0.4rem]">{`-${data.item.promotion_percentage}%`}</span>
                     </>

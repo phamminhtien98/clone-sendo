@@ -2,14 +2,13 @@ import { useState, useEffect } from "react";
 import iconDownArrow from "../../../../assets/svg/downArrow.svg";
 import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
-import { IDataFilter, IParamsConfig } from "../../../../@Types/Types";
+import { IDataFilter } from "../../../../@Types/Types";
 import { useSearchParams } from "react-router-dom";
 interface Props {
   dataFilter: IDataFilter[];
   attribute_key: string;
 }
-const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
-  const [string, setString] = useState<string[]>([]);
+const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
   const [search, setSearch] = useSearchParams();
   const [showMore, setShowMore] = useState(true);
   const [btnShow, setBtnShow] = useState(false);
@@ -18,27 +17,19 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
     (item) => item.attribute_key === attribute_key
   );
 
-  useEffect(() => {
-    if (paramConfig.hasOwnProperty(attribute_key)) {
-      setString(paramConfig[attribute_key].split(","));
-    }
-  }, []);
+  const handleCheckBox = (
+    _e: React.ChangeEvent<HTMLInputElement>,
+    _item: { option_name: string; search_key: string; value: string }
+  ) => {
+    console.log(paramConfig);
 
-  const handleCheckBox = (e: React.ChangeEvent<HTMLInputElement>) => {
-    let newString: string[] = [...string];
-    if (e.target.checked) {
-      newString.push(e.target.value);
-    } else {
-      newString = newString.filter((item) => item !== e.target.value);
-    }
-    setString(newString);
-    if (newString.join(",").length === 0) {
-      search.delete(attribute_key);
+    if (!_e.target.checked) {
+      search.delete(_item.search_key);
       setSearch(search, {
         replace: true,
       });
     } else {
-      search.set(attribute_key, newString.join(","));
+      search.set(_item.search_key, _item.value);
       setSearch(search, {
         replace: true,
       });
@@ -76,16 +67,18 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
                   className="w-[18px] h-[18px] cursor-pointer"
                   type="checkbox"
                   name=""
-                  id={data[0].attribute_key + item.option_id}
-                  value={item.option_id}
-                  onChange={handleCheckBox}
-                  checked={string.includes(`${item.option_id}`)}
+                  id={item.search_key}
+                  value={item.value}
+                  onChange={(e) => {
+                    handleCheckBox(e, item);
+                  }}
+                  checked={paramConfig[item.search_key] ? true : false}
                 />
                 <label
                   className={`${
-                    string.includes(`${item.option_id}`) ? "font-[700]" : ""
+                    paramConfig[item.search_key] ? "font-[700]" : ""
                   } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
-                  htmlFor={data[0].attribute_key + item.option_id}
+                  htmlFor={item.search_key}
                 >
                   {item.option_name}
                 </label>
@@ -100,16 +93,18 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
                     className="w-[18px] h-[18px]"
                     type="checkbox"
                     name=""
-                    id={data[0].attribute_key + item.option_id}
-                    checked={string.includes(`${item.option_id}`)}
-                    value={item.option_id}
-                    onChange={handleCheckBox}
+                    id={item.search_key}
+                    checked={paramConfig[item.search_key] ? true : false}
+                    value={item.value}
+                    onChange={(e) => {
+                      handleCheckBox(e, item);
+                    }}
                   />
                   <label
                     className={`${
-                      string.includes(`${item.option_id}`) ? "font-[700]" : ""
+                      paramConfig[item.search_key] ? "font-[700]" : ""
                     } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
-                    htmlFor={data[0].attribute_key + item.option_id}
+                    htmlFor={item.search_key}
                   >
                     {item.option_name}
                   </label>
@@ -147,4 +142,4 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
   );
 };
 
-export default SideBarCheckBox;
+export default SideBarCheckBoxEP;

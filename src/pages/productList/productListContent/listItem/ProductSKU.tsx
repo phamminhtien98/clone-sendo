@@ -6,11 +6,18 @@ interface Props {
 }
 
 const ProductSKU = ({ data }: Props) => {
+  const handleChangeImg = (
+    e: React.SyntheticEvent<HTMLImageElement, Event>
+  ) => {
+    e.currentTarget.src =
+      "https://media3.scdn.vn/img4/2021/01_11/Qokz3RuOMUPhdFHEEDzu_simg_de2fe0_175x175_maxb.jpg";
+  };
+
   return (
     <div className="p-[0.8rem]">
       <Link to={""} className="text-[#0f1e29]">
         <div
-          className="bg-white rounded-[8px] cursor-pointer overflow-hidden"
+          className="bg-white rounded-[8px] cursor-pointer overflow-hidden hover:drop-shadow-[0_8px_16px_rgba(0,0,0,0.12)]"
           style={{
             boxShadow:
               "0 2px 4px 0 rgba(0,0,0,.12), 0 -2px 2px 0 rgba(0,0,0,.04)",
@@ -22,7 +29,8 @@ const ProductSKU = ({ data }: Props) => {
               <div className="h-full w-full top-0 bottom-0 left-0 right-0 absolute">
                 <img
                   src={data.item.thumbnail_url}
-                  alt="thumbnail"
+                  onError={handleChangeImg}
+                  alt={""}
                   className="h-full left-[50%] top-[50%] absolute translate-y-[-50%] translate-x-[-50%]"
                 />
               </div>
@@ -66,8 +74,8 @@ const ProductSKU = ({ data }: Props) => {
                   </>
                 )}
               </div>
-              <div className="text-[#ee2624] text-[16px] leading-[2.2rem] font-[700] text-ellipsis overflow-hidden">
-                {data.item.final_price.toLocaleString("vi-VN")}đ
+              <div className="text-[#ee2624] text-[16px] leading-[2.2rem] font-[700] text-ellipsis overflow-hidden whitespace-nowrap">
+                {data.item.price_range}
               </div>
             </div>
             {/* Ưu đãi */}
