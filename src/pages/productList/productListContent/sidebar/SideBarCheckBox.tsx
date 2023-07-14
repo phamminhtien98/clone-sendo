@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import iconDownArrow from "../../../../assets/svg/downArrow.svg";
 import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
-import { IDataFilter, IParamsConfig } from "../../../../@Types/Types";
+import { IDataFilter } from "../../../../@Types/Types";
 import { useSearchParams } from "react-router-dom";
 interface Props {
   dataFilter: IDataFilter[];
@@ -22,6 +22,7 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
     if (paramConfig.hasOwnProperty(attribute_key)) {
       setString(paramConfig[attribute_key].split(","));
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleCheckBox = (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import iconDownArrow from "../../../../assets/svg/downArrow.svg";
 import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
@@ -18,18 +18,18 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
   );
 
   const handleCheckBox = (
-    _e: React.ChangeEvent<HTMLInputElement>,
-    _item: { option_name: string; search_key: string; value: string }
+    e: React.ChangeEvent<HTMLInputElement>,
+    item: { option_name: string; search_key: string; value: string }
   ) => {
     console.log(paramConfig);
 
-    if (!_e.target.checked) {
-      search.delete(_item.search_key);
+    if (!e.target.checked) {
+      search.delete(item.search_key);
       setSearch(search, {
         replace: true,
       });
     } else {
-      search.set(_item.search_key, _item.value);
+      search.set(item.search_key, item.value);
       setSearch(search, {
         replace: true,
       });
