@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clone-sendo/static/css/main.204c4b0f.css",
-    "main.js": "/clone-sendo/static/js/main.b630d262.js",
+    "main.js": "/clone-sendo/static/js/main.a40a9647.js",
     "static/js/787.5740faa9.chunk.js": "/clone-sendo/static/js/787.5740faa9.chunk.js",
     "static/media/0ZARLASzVrfL92924rzW.png": "/clone-sendo/static/media/0ZARLASzVrfL92924rzW.085d2ca312be31797b0e.png",
     "static/media/logo.svg": "/clone-sendo/static/media/logo.7cf4cfd7d9bca6d6216648554a6befb6.svg",
@@ -14,11 +14,11 @@
     "static/media/iconSub.svg": "/clone-sendo/static/media/iconSub.3d87817f6ba64a99ebbde3a676439721.svg",
     "static/media/iconCheck.svg": "/clone-sendo/static/media/iconCheck.f19e55e41a762c2bf75b011e837e7ec9.svg",
     "main.204c4b0f.css.map": "/clone-sendo/static/css/main.204c4b0f.css.map",
-    "main.b630d262.js.map": "/clone-sendo/static/js/main.b630d262.js.map",
+    "main.a40a9647.js.map": "/clone-sendo/static/js/main.a40a9647.js.map",
     "787.5740faa9.chunk.js.map": "/clone-sendo/static/js/787.5740faa9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.204c4b0f.css",
-    "static/js/main.b630d262.js"
+    "static/js/main.a40a9647.js"
   ]
 }
