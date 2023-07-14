@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/sach-van-phong-pham/static/css/main.204c4b0f.css",
-    "main.js": "/sach-van-phong-pham/static/js/main.24941651.js",
-    "static/js/787.5740faa9.chunk.js": "/sach-van-phong-pham/static/js/787.5740faa9.chunk.js",
-    "static/media/0ZARLASzVrfL92924rzW.png": "/sach-van-phong-pham/static/media/0ZARLASzVrfL92924rzW.085d2ca312be31797b0e.png",
-    "static/media/logo.svg": "/sach-van-phong-pham/static/media/logo.7cf4cfd7d9bca6d6216648554a6befb6.svg",
-    "index.html": "/sach-van-phong-pham/index.html",
-    "static/media/iconMenu.svg": "/sach-van-phong-pham/static/media/iconMenu.38446e34da11865a9c30752103481a0b.svg",
-    "static/media/iconBag.svg": "/sach-van-phong-pham/static/media/iconBag.e6e617f7e06fe2de7fb5a5ab04fe8edb.svg",
-    "static/media/iconSearch.svg": "/sach-van-phong-pham/static/media/iconSearch.195586802344d1515684553056b32f55.svg",
-    "static/media/downArrow.svg": "/sach-van-phong-pham/static/media/downArrow.93f441d4fb8d91f674b7e88ccbb16542.svg",
-    "static/media/iconAdd.svg": "/sach-van-phong-pham/static/media/iconAdd.ea0bac7fdad3a6ea1fff9a6a3349fa28.svg",
-    "static/media/iconSub.svg": "/sach-van-phong-pham/static/media/iconSub.3d87817f6ba64a99ebbde3a676439721.svg",
-    "static/media/iconCheck.svg": "/sach-van-phong-pham/static/media/iconCheck.f19e55e41a762c2bf75b011e837e7ec9.svg",
-    "main.204c4b0f.css.map": "/sach-van-phong-pham/static/css/main.204c4b0f.css.map",
-    "main.24941651.js.map": "/sach-van-phong-pham/static/js/main.24941651.js.map",
-    "787.5740faa9.chunk.js.map": "/sach-van-phong-pham/static/js/787.5740faa9.chunk.js.map"
+    "main.css": "/clone-sendo/static/css/main.204c4b0f.css",
+    "main.js": "/clone-sendo/static/js/main.b630d262.js",
+    "static/js/787.5740faa9.chunk.js": "/clone-sendo/static/js/787.5740faa9.chunk.js",
+    "static/media/0ZARLASzVrfL92924rzW.png": "/clone-sendo/static/media/0ZARLASzVrfL92924rzW.085d2ca312be31797b0e.png",
+    "static/media/logo.svg": "/clone-sendo/static/media/logo.7cf4cfd7d9bca6d6216648554a6befb6.svg",
+    "index.html": "/clone-sendo/index.html",
+    "static/media/iconMenu.svg": "/clone-sendo/static/media/iconMenu.38446e34da11865a9c30752103481a0b.svg",
+    "static/media/iconBag.svg": "/clone-sendo/static/media/iconBag.e6e617f7e06fe2de7fb5a5ab04fe8edb.svg",
+    "static/media/iconSearch.svg": "/clone-sendo/static/media/iconSearch.195586802344d1515684553056b32f55.svg",
+    "static/media/downArrow.svg": "/clone-sendo/static/media/downArrow.93f441d4fb8d91f674b7e88ccbb16542.svg",
+    "static/media/iconAdd.svg": "/clone-sendo/static/media/iconAdd.ea0bac7fdad3a6ea1fff9a6a3349fa28.svg",
+    "static/media/iconSub.svg": "/clone-sendo/static/media/iconSub.3d87817f6ba64a99ebbde3a676439721.svg",
+    "static/media/iconCheck.svg": "/clone-sendo/static/media/iconCheck.f19e55e41a762c2bf75b011e837e7ec9.svg",
+    "main.204c4b0f.css.map": "/clone-sendo/static/css/main.204c4b0f.css.map",
+    "main.b630d262.js.map": "/clone-sendo/static/js/main.b630d262.js.map",
+    "787.5740faa9.chunk.js.map": "/clone-sendo/static/js/787.5740faa9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.204c4b0f.css",
-    "static/js/main.24941651.js"
+    "static/js/main.b630d262.js"
   ]
 }
