@@ -1,15 +1,41 @@
 import { useState } from "react";
 import iconDownArrow from "../../../../assets/svg/downArrow.svg";
 import { IDataFilter } from "../../../../@Types/Types";
+import { useSearchParams } from "react-router-dom";
 interface Props {
   dataFilter: IDataFilter[];
   attribute_key: string;
 }
 const SidebarMauSac = ({ dataFilter, attribute_key }: Props) => {
   const [showMore, setShowMore] = useState(true);
+  const [search, setSearch] = useSearchParams();
+  const paramConfig = Object.fromEntries([...search]);
   const data = dataFilter.filter(
     (item) => item.attribute_key === attribute_key
   );
+  const IsActive: (gtprice: number, ltprice: number) => boolean = (
+    gtprice: number,
+    ltprice: number
+  ) => {
+    const paramGtprice = paramConfig.gtprice;
+    const paramLtprice = paramConfig.ltprice;
+    if (
+      (gtprice === -1 &&
+        paramGtprice === undefined &&
+        paramLtprice === `${ltprice}`) ||
+      (ltprice === -1 &&
+        paramLtprice === undefined &&
+        paramGtprice === `${gtprice}`) ||
+      (paramGtprice &&
+        paramLtprice &&
+        paramGtprice === `${gtprice}` &&
+        paramLtprice === `${ltprice}`)
+    ) {
+      return true;
+    } else {
+      return false;
+    }
+  };
 
   return (
     <div className="py-[1.2rem] px-[0.4rem]">

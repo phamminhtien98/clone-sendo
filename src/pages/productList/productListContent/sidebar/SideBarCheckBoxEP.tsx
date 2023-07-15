@@ -21,19 +21,12 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
     e: React.ChangeEvent<HTMLInputElement>,
     item: { option_name: string; search_key: string; value: string }
   ) => {
-    console.log(paramConfig);
-
     if (!e.target.checked) {
       search.delete(item.search_key);
-      setSearch(search, {
-        replace: true,
-      });
     } else {
       search.set(item.search_key, item.value);
-      setSearch(search, {
-        replace: true,
-      });
     }
+    setSearch(search, { replace: true });
   };
 
   return (
@@ -57,8 +50,10 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
       </div>
       {data[0].attribute_value && showMore && (
         <div className={`flex flex-col overflow-hidden mt-3`}>
-          {data[0].attribute_value.map((item, index) =>
-            index <= 3 ? (
+          {data[0].attribute_value.map((item, index) => {
+            if (index > 3 && !btnShow) return null;
+
+            return (
               <div
                 className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
                 key={index}
@@ -83,35 +78,9 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
                   {item.option_name}
                 </label>
               </div>
-            ) : (
-              btnShow && (
-                <div
-                  className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
-                  key={index}
-                >
-                  <input
-                    className="w-[18px] h-[18px]"
-                    type="checkbox"
-                    name=""
-                    id={item.search_key}
-                    checked={paramConfig[item.search_key] ? true : false}
-                    value={item.value}
-                    onChange={(e) => {
-                      handleCheckBox(e, item);
-                    }}
-                  />
-                  <label
-                    className={`${
-                      paramConfig[item.search_key] ? "font-[700]" : ""
-                    } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
-                    htmlFor={item.search_key}
-                  >
-                    {item.option_name}
-                  </label>
-                </div>
-              )
-            )
-          )}
+            );
+          })}
+
           {data[0].attribute_value.length > 4 && (
             <div
               className="flex justify-center"
@@ -119,21 +88,16 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
                 setBtnShow(!btnShow);
               }}
             >
-              {btnShow ? (
-                <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
-                  <img src={iconSub} alt="" className="max-w-[16px] h-[16px]" />
-                  <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
-                    Thu gọn
-                  </span>
-                </button>
-              ) : (
-                <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
-                  <img src={iconAdd} alt="" className="max-w-[16px] h-[16px]" />
-                  <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
-                    Xem thêm
-                  </span>
-                </button>
-              )}
+              <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
+                <img
+                  src={btnShow ? iconSub : iconAdd}
+                  alt=""
+                  className="max-w-[16px] h-[16px]"
+                />
+                <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
+                  {btnShow ? "Thu gọn" : "Xem thêm"}
+                </span>
+              </button>
             </div>
           )}
         </div>

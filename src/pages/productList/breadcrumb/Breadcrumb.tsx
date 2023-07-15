@@ -11,14 +11,8 @@ const Breadcrumb = () => {
         <li className="text-[14px] pr-[0.8rem]">
           <span>/</span>
         </li>
-        <li className="text-[14px] pr-[0.8rem] text-[#0f62fe]">
-          <NavLink to={""}>Sendo.vn</NavLink>
-        </li>
         <li className="text-[14px] pr-[0.8rem]">
-          <span>/</span>
-        </li>
-        <li className="text-[14px] pr-[0.8rem]">
-          <NavLink to={""}>Sendo.vn</NavLink>
+          <NavLink to={""}>Sách & Văn phòng phẩm</NavLink>
         </li>
       </ul>
     </div>

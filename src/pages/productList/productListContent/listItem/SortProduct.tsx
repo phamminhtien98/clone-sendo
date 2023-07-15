@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import downArrow from "../../../../assets/svg/downArrow.svg";
 import iconCheck from "../../../../assets/svg/iconCheck.svg";
+import { useSearchParams } from "react-router-dom";
 const sortTypes = [
   {
     sortType: "vasup_desc",
@@ -26,13 +27,29 @@ const SortProduct = () => {
     name: "Đề cử",
   });
   const [show, setShow] = useState(false);
+  const [search, setSearch] = useSearchParams();
+  const paramConfig = Object.fromEntries([...search]);
+
+  useEffect(() => {
+    const paramSortType = paramConfig.sort_type;
+    if (paramSortType) {
+      setSortType(
+        sortTypes.find((item) => item.sortType === paramSortType) ||
+          sortTypes[0]
+      );
+    }
+  }, []);
+
+  const handleSelectSortType = (item: { sortType: string; name: string }) => {
+    setSortType(item);
+    search.set("sort_type", item.sortType);
+    setSearch(search, { replace: true });
+  };
+
   return (
-    <div
-      className="flex cursor-pointer items-center"
-      onClick={() => setShow(!show)}
-    >
+    <div className="flex cursor-pointer items-center">
       <span className="mr-[0.8rem]">Sắp xếp theo:</span>
-      <div className="w-full lg:w-[17%]">
+      <div className="w-full lg:w-[17%]" onClick={() => setShow(!show)}>
         <div className=" relative bg-white border-[1px] border-[#cfd2d4] hover:border-[#3f81fe] min-h-[3.2rem] rounded-[4px] flex justify-between items-center py-[0.8rem] pl-[0.8rem]">
           <span className="text-[#6f787e]">{sortType.name}</span>
           <div className="px-[0.8rem]">
@@ -50,10 +67,14 @@ const SortProduct = () => {
                     key={index}
                     className="flex justify-between items-center p-[0.8rem] rounded-[4px] hover:bg-[#f2f3f4]"
                     onClick={() => {
-                      setSortType(item);
+                      handleSelectSortType(item);
                     }}
                   >
-                    <span className="whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer">
+                    <span
+                      className={`${
+                        sortType.name === item.name ? "font-[700]" : ""
+                      } whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
+                    >
                       {item.name}
                     </span>
                     {sortType.name === item.name && (

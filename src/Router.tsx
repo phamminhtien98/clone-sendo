@@ -44,7 +44,17 @@ const Router = () => {
       </SenDoLayout>
     ),
   }));
-  const routeElements = useRoutes(routerData);
+  const routeElements = useRoutes([
+    ...routerData,
+    {
+      path: `/*`,
+      element: (
+        <SenDoLayout>
+          <ProductList />
+        </SenDoLayout>
+      ),
+    },
+  ]);
 
   return routeElements;
 };

@@ -138,6 +138,7 @@ const CategoriesParent = ({ category, handleSelectCategory }: Props2) => {
                 )
               );
             })}
+
             {category.sub_category.length > 6 && (
               <div
                 className="flex justify-center"
@@ -145,29 +146,16 @@ const CategoriesParent = ({ category, handleSelectCategory }: Props2) => {
                   setBtnShow(!btnShow);
                 }}
               >
-                {btnShow ? (
-                  <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
-                    <img
-                      src={iconSub}
-                      alt=""
-                      className="max-w-[16px] h-[16px]"
-                    />
-                    <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
-                      Thu gọn
-                    </span>
-                  </button>
-                ) : (
-                  <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
-                    <img
-                      src={iconAdd}
-                      alt=""
-                      className="max-w-[16px] h-[16px]"
-                    />
-                    <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
-                      Xem thêm
-                    </span>
-                  </button>
-                )}
+                <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
+                  <img
+                    src={btnShow ? iconSub : iconAdd}
+                    alt=""
+                    className="max-w-[16px] h-[16px]"
+                  />
+                  <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
+                    {btnShow ? "Thu gọn" : "Xem thêm"}
+                  </span>
+                </button>
               </div>
             )}
           </div>

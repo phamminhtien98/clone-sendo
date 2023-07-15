@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import iconDownArrow from "../../../../assets/svg/downArrow.svg";
 import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
 import { IDataFilter } from "../../../../@Types/Types";
+import { useSearchParams } from "react-router-dom";
 interface Props {
   dataFilter: IDataFilter[];
 }
@@ -16,6 +17,8 @@ interface IAttribute {
   background_image: string;
 }
 const SideBarUuDai = ({ dataFilter }: Props) => {
+  const [search, setSearch] = useSearchParams();
+  const paramConfig = Object.fromEntries([...search]);
   const [showMore, setShowMore] = useState(true);
   const [btnShow, setBtnShow] = useState(false);
   let countItem = 0;
@@ -29,6 +32,41 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
     });
   });
 
+  const isInputChecked = (attribute_key: string, value: number) => {
+    const param = paramConfig[attribute_key];
+    const paramList = param ? param.split(",") : [];
+    return paramList.includes(value.toString());
+  };
+
+  // useEffect(() => {
+  //   console.log(paramConfig);
+  // }, [paramConfig]);
+  const handleCheckBox = (
+    e: React.ChangeEvent<HTMLInputElement>,
+    attribute_key: string,
+    value: number
+  ) => {
+    let param: string | undefined = paramConfig[attribute_key];
+    //chuyển param string thành mảng
+    let paramList = param ? param.split(",") : [];
+    if (e.target.checked) {
+      //add thêm value cho param
+      paramList.push(value.toString());
+      search.set(attribute_key, paramList.join(","));
+    } else {
+      //xóa value khỏi param
+      paramList = paramList.filter((item) => item !== value.toString());
+      if (paramList.length === 0) {
+        //nếu mảng param ko còn phần tử xóa khỏi url
+        search.delete(attribute_key);
+      } else {
+        //nếu mảng param còn phần tử sửa lại param trên url
+        search.set(attribute_key, paramList.join(","));
+      }
+    }
+    setSearch(search, { replace: true });
+  };
+
   return (
     <div className="py-[1.2rem] px-[0.4rem]">
       <div className="flex justify-between items-center">
@@ -39,7 +77,6 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
           className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px]"
           onClick={() => {
             setShowMore(!showMore);
-            console.log(data);
           }}
         >
           <img
@@ -49,12 +86,16 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
           />
         </button>
       </div>
-      {totalAttribute_value && showMore && (
-        <div className={`flex flex-col overflow-hidden mt-3`}>
-          {data.map((item) => {
-            return item.attribute_value?.map((itemAtt) => {
+
+      {totalAttribute_value.length > 0 && showMore && (
+        <div className="flex flex-col overflow-hidden mt-3">
+          {data.map((item) =>
+            item.attribute_value?.map((itemAtt) => {
               countItem++;
-              return countItem <= 4 ? (
+
+              if (countItem > 4 && !btnShow) return null;
+
+              return (
                 <div
                   className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
                   key={countItem}
@@ -62,41 +103,35 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
                   <input
                     className="w-[18px] h-[18px] cursor-pointer"
                     type="checkbox"
-                    name=""
                     id={`${item.attribute_term}${countItem}`}
-                    value={itemAtt.name}
+                    value={itemAtt.value}
+                    checked={isInputChecked(
+                      item.attribute_key ?? "",
+                      itemAtt.value
+                    )}
+                    onChange={(e) => {
+                      handleCheckBox(
+                        e,
+                        item.attribute_key ?? "",
+                        itemAtt.value
+                      );
+                    }}
                   />
                   <label
-                    className="ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer"
+                    className={`${
+                      isInputChecked(item.attribute_key ?? "", itemAtt.value)
+                        ? "font-[700]"
+                        : ""
+                    } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
                     htmlFor={`${item.attribute_term}${countItem}`}
                   >
                     {itemAtt.name}
                   </label>
                 </div>
-              ) : (
-                btnShow && (
-                  <div
-                    className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
-                    key={countItem}
-                  >
-                    <input
-                      className="w-[18px] h-[18px] cursor-pointer"
-                      type="checkbox"
-                      name=""
-                      id={`${item.attribute_term}${countItem}`}
-                      value={itemAtt.name}
-                    />
-                    <label
-                      className="ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer"
-                      htmlFor={`${item.attribute_term}${countItem}`}
-                    >
-                      {itemAtt.name}
-                    </label>
-                  </div>
-                )
               );
-            });
-          })}
+            })
+          )}
+
           {totalAttribute_value.length > 4 && (
             <div
               className="flex justify-center"
@@ -104,21 +139,16 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
                 setBtnShow(!btnShow);
               }}
             >
-              {btnShow ? (
-                <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
-                  <img src={iconSub} alt="" className="max-w-[16px] h-[16px]" />
-                  <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
-                    Thu gọn
-                  </span>
-                </button>
-              ) : (
-                <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
-                  <img src={iconAdd} alt="" className="max-w-[16px] h-[16px]" />
-                  <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
-                    Xem thêm
-                  </span>
-                </button>
-              )}
+              <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
+                <img
+                  src={btnShow ? iconSub : iconAdd}
+                  alt=""
+                  className="max-w-[16px] h-[16px]"
+                />
+                <span className="ml-[0.8rem] text-[14px] leading-[1.29] font-[700]">
+                  {btnShow ? "Thu gọn" : "Xem thêm"}
+                </span>
+              </button>
             </div>
           )}
         </div>
