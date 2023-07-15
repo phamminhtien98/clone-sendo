@@ -18,7 +18,7 @@ const NavBar = () => {
   const [searchInput, setSearchInput] = useState<string>("");
   const [selectSearch, setSelectSearch] = useState("sen-do");
   const [categoryName, setcategoryName] = useState("Sendo");
-  const ulRef = useRef<HTMLUListElement>(null);
+  const divSelectSearchRef = useRef<HTMLDivElement>(null);
 
   const categories = getCategories;
   const findCategoryName = (categories: Categories[], key: string) => {
@@ -49,14 +49,25 @@ const NavBar = () => {
     setSelectSearch(path);
   }, [location]);
 
-  useEffect(() => {
-    console.log(categoryName);
-  }, [categoryName]);
-
   const handleSelect = (value: string) => {
     setSelectSearch(value);
-    setShow(false);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        divSelectSearchRef.current &&
+        !divSelectSearchRef.current.contains(event.target as Node)
+      ) {
+        setShow(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
 
   const handleOnSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -114,8 +125,9 @@ const NavBar = () => {
                   />
                 </div>
                 <div
-                  className="odaynay flex justify-center items-center cursor-pointer bg-[#f2f3f4] relative rounded-r-[4px]"
+                  className="flex justify-center items-center cursor-pointer bg-[#f2f3f4] relative rounded-r-[4px]"
                   onClick={() => setShow(!show)}
+                  ref={divSelectSearchRef}
                 >
                   <div>
                     <div>
@@ -138,10 +150,7 @@ const NavBar = () => {
                     />
                   </div>
                   {show && (
-                    <ul
-                      className="p-[0.8rem] shadow bg-white rounded-[4px] top-[120%] absolute min-w-[20rem] left-0 z-[2]"
-                      ref={ulRef}
-                    >
+                    <ul className="p-[0.8rem] shadow bg-white rounded-[4px] top-[120%] absolute min-w-[20rem] left-0 z-[2]">
                       <li
                         className="flex justify-between items-center p-[0.8rem] rounded-[4px] hover:bg-[#f2f3f4]"
                         onClick={() => {

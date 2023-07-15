@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import downArrow from "../../../../assets/svg/downArrow.svg";
 import iconCheck from "../../../../assets/svg/iconCheck.svg";
 import { useSearchParams } from "react-router-dom";
@@ -29,6 +29,7 @@ const SortProduct = () => {
   const [show, setShow] = useState(false);
   const [search, setSearch] = useSearchParams();
   const paramConfig = Object.fromEntries([...search]);
+  const divSelectSortType = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const paramSortType = paramConfig.sort_type;
@@ -46,10 +47,30 @@ const SortProduct = () => {
     setSearch(search, { replace: true });
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        divSelectSortType.current &&
+        !divSelectSortType.current.contains(event.target as Node)
+      ) {
+        setShow(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="flex cursor-pointer items-center">
       <span className="mr-[0.8rem]">Sắp xếp theo:</span>
-      <div className="w-full lg:w-[17%]" onClick={() => setShow(!show)}>
+      <div
+        className="w-full lg:w-[17%]"
+        onClick={() => setShow(!show)}
+        ref={divSelectSortType}
+      >
         <div className=" relative bg-white border-[1px] border-[#cfd2d4] hover:border-[#3f81fe] min-h-[3.2rem] rounded-[4px] flex justify-between items-center py-[0.8rem] pl-[0.8rem]">
           <span className="text-[#6f787e]">{sortType.name}</span>
           <div className="px-[0.8rem]">
