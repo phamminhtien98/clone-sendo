@@ -55,6 +55,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
+      // nếu element click không nằm trong divSelectSearchRef thì setShow(false)
       if (
         divSelectSearchRef.current &&
         !divSelectSearchRef.current.contains(event.target as Node)
@@ -198,7 +199,7 @@ const NavBar = () => {
                 </div>
               </div>
               <button
-                className={`bg-white p-[0.7rem] rounded-[4px] ml-[0.4rem]`}
+                className={`bg-white p-[0.7rem] rounded-[4px] ml-[0.4rem] hover:hover:bg-[#f2f3f4] active:hover:bg-[#dddedf]`}
                 type="submit"
               >
                 <img

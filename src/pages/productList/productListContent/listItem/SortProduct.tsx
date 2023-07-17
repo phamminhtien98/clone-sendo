@@ -49,6 +49,7 @@ const SortProduct = () => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
+      // nếu element click không nằm trong divSelectSortType thì setShow(false)
       if (
         divSelectSortType.current &&
         !divSelectSortType.current.contains(event.target as Node)

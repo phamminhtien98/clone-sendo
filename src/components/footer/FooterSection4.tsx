@@ -379,8 +379,8 @@ const FooterSection4 = () => {
           <div
             className={`transition-all duration-300 ease-linear ${
               showMoreTopTimKiem
-                ? "min-h-[1.8rem] h-[1.8rem] overflow-hidden"
-                : "min-h-[8rem] h-auto overflow-visible"
+                ? "min-h-[8rem] h-auto overflow-visible"
+                : "min-h-[1.8rem] h-[1.8rem] overflow-hidden"
             }`}
           >
             {topTimKiem &&

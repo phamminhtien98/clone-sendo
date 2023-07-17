@@ -59,7 +59,7 @@ const SideBar = ({ categories, handleSelectCategory, dataFilter }: Props) => {
       <hr className="h-[1px] text-[#0f1e29]" />
       <SideBarCheckBox dataFilter={dataFilter} attribute_key="loai_sac" />
       <hr className="h-[1px] text-[#0f1e29]" />
-      <SideBarCheckBox dataFilter={dataFilter} attribute_key="other_type" />
+      <SideBarCheckBoxEP dataFilter={dataFilter} attribute_key="other_type" />
     </div>
   );
 };

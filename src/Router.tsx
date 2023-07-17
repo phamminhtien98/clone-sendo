@@ -1,6 +1,6 @@
 import React from "react";
 import SenDoLayout from "./layouts/SenDoLayout";
-import { useRoutes } from "react-router-dom";
+import { Navigate, useRoutes } from "react-router-dom";
 import ProductList from "./pages/productList/ProductList";
 import { categories } from "./data/Categories";
 
@@ -48,11 +48,7 @@ const Router = () => {
     ...routerData,
     {
       path: `/*`,
-      element: (
-        <SenDoLayout>
-          <ProductList />
-        </SenDoLayout>
-      ),
+      element: <Navigate to={`/sach-van-phong-pham`} />,
     },
   ]);
 

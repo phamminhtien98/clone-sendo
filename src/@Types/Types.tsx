@@ -23,6 +23,9 @@ export interface IDataFilter {
 }
 
 export interface IParamsConfig {
+  q?: string; //search
+  sort_type?: string;
+
   shop_warehouse_city_id?: string; //Địa điểm
 
   is_using_instant?: string; //Phương thức vận chuyển Hỏa tốc

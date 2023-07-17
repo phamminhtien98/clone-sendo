@@ -65,12 +65,12 @@ const ProductSKU = ({ data }: Props) => {
             {/* giá */}
             <div>
               <div className="h-[1.6rem]">
-                {data.item.app_discount_percentage && (
+                {data.item.promotion_percentage && (
                   <>
                     <span className="text-[#b7bbbf] text-[11px] leading-[1.2rem] line-through">
                       {data.item.price.toLocaleString("vi-VN")}đ
                     </span>
-                    <span className="text-[#ee2624] text-[12px] leading-[1.6rem] ml-[0.4rem]">{`-${data.item.app_discount_percentage}%`}</span>
+                    <span className="text-[#ee2624] text-[12px] leading-[1.6rem] ml-[0.4rem]">{`-${data.item.promotion_percentage}%`}</span>
                   </>
                 )}
               </div>
