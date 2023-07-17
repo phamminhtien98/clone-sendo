@@ -55,7 +55,7 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
 
             return (
               <div
-                className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
+                className="flex items-center rounded-[4px] pl-[1.5rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
                 key={index}
               >
                 <input
@@ -72,7 +72,7 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
                 <label
                   className={`${
                     paramConfig[item.search_key] ? "font-[700]" : ""
-                  } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
+                  } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer w-full py-[0.8rem] pr-[0.8rem]`}
                   htmlFor={item.search_key}
                 >
                   {item.option_name}
