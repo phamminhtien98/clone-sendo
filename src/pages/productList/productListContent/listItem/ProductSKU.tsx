@@ -122,7 +122,9 @@ const ProductSKU = ({ data }: Props) => {
                 {data.item.rating_percent && (
                   <>
                     <span>{data.item.rating_percent}/5</span>
-                    <span></span>
+                    <span className="text-[1rem] leading-[1.1rem] text-[#ffc600] ml-[0.4rem]">
+                      ★
+                    </span>
                   </>
                 )}
               </div>

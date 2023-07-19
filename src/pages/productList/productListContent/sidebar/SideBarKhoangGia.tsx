@@ -27,7 +27,10 @@ const SideBarKhoangGia = ({ dataFilter, attribute_key }: Props) => {
       setBtnLook(true);
     } else {
       setBtnLook(false);
+      search.delete("gtprice");
+      search.delete("ltprice");
     }
+    setSearch(search, { replace: true });
   }, [giaThap, giaCao]);
 
   const HandleBtnApDung = () => {

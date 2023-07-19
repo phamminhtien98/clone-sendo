@@ -8,13 +8,7 @@ export const ProductLists = [
       name: "Combo 3 cuốn TedBooks: Kỳ Bí Dòng Sông Sôi Trong Lòng Amazon + Con Trai Kẻ Khủng Bố + Cà Phê Trên Sao Hỏa",
       category_ids: [1, 2, 2259, 2260, 2269],
       category_id: 2269,
-      shop_id: 607965,
-      seller_admin_id: 607965,
-      brand_id: 4632,
-      price: 205000,
-      max_price: 205000,
       final_price: 174000,
-      special_price: 174000,
       promotion_percentage: 16,
       is_using_in_day: 1,
       shop_badge_urls: [
@@ -29,24 +23,12 @@ export const ProductLists = [
             "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
         },
       ],
-      shop_badge_url:
-        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
       shop_warehouse_city: "TP.HCM",
       shop_warehouse_city_id: 1,
-      cat_path:
-        "combo-3-cuon-tedbooks-ky-bi-dong-song-soi-trong-long-amazon-con-trai-ke-khung-bo-ca-phe-tren-sao-hoa-43679649.html",
-      external_id: 43679649,
       app_discount_percentage: 2,
-      item_type: "9",
-      request_id: "a1c386b2-a984-4381-bf45-5abd4f9cc450",
-      uid: "fallback_hotsale_43679649",
       thumbnail_url:
         "https://media3.scdn.vn/img4/2021/05_12/AbRLCC4DbFug0sAvm78p_simg_b5529c_250x250_maxb.jpg",
-      original_img_url:
-        "https://media3.scdn.vn/img4/2021/05_12/AbRLCC4DbFug0sAvm78p.jpg",
-      min_price: "174.000đ",
       price_range: "174.000đ",
-      original_price: "205.000đ",
       event_banners: [
         {
           type: "mega-voucher",
@@ -57,16 +39,9 @@ export const ProductLists = [
       promotion_sub_message: {
         type: "pay_later",
         text: "Trả góp Muadee",
-        text_color: "#3f4b53",
-        bg_color: "#f2f3f4",
         icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
       },
-      shop_name: "Sách Nghé",
       is_shop_mall: true,
-      track_info:
-        "607965;4632;app;43679649;Combo 3 cuốn TedBooks: Kỳ Bí Dòng Sông Sôi Trong Lòng Amazon + Con Trai Kẻ Khủng Bố + Cà Phê Trên Sao Hỏa;174.000đ;2269",
-      final_promotion_percent: 16,
-      promotion_percent_upto: "Up 16%",
       is_in_promotion: true,
       is_in_promotion_app: false,
       is_installment: false,
@@ -78,24 +53,12 @@ export const ProductLists = [
       the_loai: [""],
       tinh_trang_sach: [""],
       xuat_xu: [""],
-      destination_url: "?product_prices=174000&uclid=",
-      deep_link:
-        "https://www.sendo.vn/combo-3-cuon-tedbooks-ky-bi-dong-song-soi-trong-long-amazon-con-trai-ke-khung-bo-ca-phe-tren-sao-hoa-43679649.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=1",
-      track_meta: {
-        algo_type: "hotsale_fallback",
-        original_type: "SKU",
-        slot_id: "",
-        promotion_campaign_id: 0,
-        badge_list: "mega-voucher",
-        promotion_type: 0,
-      },
     },
   },
   {
     index: 1,
     type: "DailySale",
     item: {
-      button_text: "Mua ngay",
       category_ids: [1, 2, 2259],
       buy_limit: 3,
       final_price: 10000,
@@ -110,18 +73,6 @@ export const ProductLists = [
       remaining: 250,
       url_key:
         "https://www.sendo.vn/but-da-quang-mau-pastel-thien-long-flexoffice-pazto-fo-hl009vn-but-da-quang-rua-duoc-khong-de-lai-vet-khi-photocopy-97863000.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=DailySale&source_block_id=feed&source_page_id=cate1&source_position=2",
-      cat_path:
-        "but-da-quang-mau-pastel-thien-long-flexoffice-pazto-fo-hl009vn-but-da-quang-rua-duoc-khong-de-lai-vet-khi-photocopy-97863000.html",
-      item_type: "21",
-      request_id: "a1c386b2-a984-4381-bf45-5abd4f9cc450",
-      track_meta: {
-        algo_type: "",
-        original_type: "DailySale",
-        slot_id: "",
-        promotion_campaign_id: 0,
-        badge_list: "",
-        promotion_type: 0,
-      },
       promotion_sub_message: {},
     },
   },
@@ -134,11 +85,6 @@ export const ProductLists = [
       name: "Từ Điển Oxford Anh - Anh - Việt - Bìa Vàng - Tái Bản",
       category_ids: [1, 2, 2259, 2261, 2277],
       category_id: 2277,
-      shop_id: 975919,
-      seller_admin_id: 975919,
-      brand_id: 1435,
-      price: 298000,
-      max_price: 298000,
       is_using_in_day: 1,
       final_price: 298000,
       shop_badge_urls: [
@@ -153,22 +99,11 @@ export const ProductLists = [
             "https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png",
         },
       ],
-      shop_badge_url:
-        "https://media3.scdn.vn/img4/2022/08_30/Niw4htmWmKd2rNiMEHpE.png",
       shop_warehouse_city: "TP.HCM",
       shop_warehouse_city_id: 1,
-      cat_path: "tu-dien-oxford-anh-anh-viet-bia-vang-tai-ban-114072615.html",
-      external_id: 114072615,
-      item_type: "9",
-      request_id: "a1c386b2-a984-4381-bf45-5abd4f9cc450",
-      uid: "fallback_hotsale_114072615",
       thumbnail_url:
         "https://media3.scdn.vn/img4/2023/05_03/2aM03a3WAsNb5RRFXdLE_simg_b5529c_250x250_maxb.jpg",
-      original_img_url:
-        "https://media3.scdn.vn/img4/2023/05_03/2aM03a3WAsNb5RRFXdLE.jpg",
-      min_price: "298.000đ",
       price_range: "298.000đ",
-      original_price: "298.000đ",
       event_banners: [
         {
           type: "mega-voucher",
@@ -179,25 +114,9 @@ export const ProductLists = [
       promotion_sub_message: {
         type: "pay_later",
         text: "Trả góp Muadee",
-        text_color: "#3f4b53",
-        bg_color: "#f2f3f4",
         icon: "https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png",
       },
-      shop_name: "Nhân Văn Online",
       is_shop_mall: true,
-      track_info:
-        "975919;1435;app;114072615;Từ Điển Oxford Anh - Anh - Việt - Bìa Vàng - Tái Bản;298.000đ;2277",
-      destination_url: "?product_prices=298000&uclid=",
-      deep_link:
-        "https://www.sendo.vn/tu-dien-oxford-anh-anh-viet-bia-vang-tai-ban-114072615.html?algo=isnewlisting2&is_hyper_listing=0&is_new_listing=2&product_type=9&source_block_id=feed&source_page_id=cate1&source_position=3",
-      track_meta: {
-        algo_type: "hotsale_fallback",
-        original_type: "SKU",
-        slot_id: "",
-        promotion_campaign_id: 0,
-        badge_list: "mega-voucher",
-        promotion_type: 0,
-      },
     },
   },
   {
