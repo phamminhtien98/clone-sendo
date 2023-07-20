@@ -7,7 +7,7 @@ const FooterSection3 = () => {
     <section className="bg-[#27343e] py-[2.4rem] text-white">
       <div className="containerct">
         <div className="flex justify-between">
-          <div className="max-w-[42%] flex flex-col">
+          <div className="sm-41_67 flex flex-col items-stretch content-stretch">
             <span className="mb-[1.2rem] font-[700] text-[12px] leading-[1.6rem]">
               Công ty Cổ phần Công nghệ Sen Đỏ, thành viên của Tập đoàn FPT
             </span>
@@ -35,21 +35,30 @@ const FooterSection3 = () => {
               </Link>
             </div>
           </div>
-          <div className="max-w-[50%] flex flex-col basis-[50%]">
+          <div className="sm-50 flex flex-col items-stretch content-stretch">
             <span className="mb-[1.2rem] font-[700] text-[12px] leading-[1.6rem]">
               Đăng ký nhận bản tin ưu đãi khủng từ Sendo
             </span>
-            <form className="flex items-center">
-              <div className="max-w-[50%] basis-[50%]">
-                <input
-                  type="text"
-                  placeholder="Email của bạn là"
-                  className="p-[0.8rem] leading-[1.4rem] rounded-[4px] w-[100%]"
-                />
+            <form className="flex items-center w-full">
+              <div className="sm-50 items-stretch content-stretch rounded-[4px] drop-shadow-[0_0_0_1px_transparent] bg-white">
+                <div className="flex text-[14px] overflow-hidden w-full ">
+                  <input
+                    type="text"
+                    inputMode="email"
+                    placeholder="Email của bạn là"
+                    className="bg-inherit border-none w-full leading-[1.4rem] text-[14px] p-[0.8rem]"
+                    value={""}
+                  />
+                </div>
               </div>
-              <div className="max-w-[17%] basis-[17%]">
-                <button className="font-[700] px-[1.6rem] py-[0.8rem] ml-[0.4rem] bg-[#ee2624] hover:bg-[#f1514f] cursor-pointer rounded-[4px]">
-                  <span className="text-[14px] leading-[1.29rem]">Đăng ký</span>
+              <div className="sm-16_67 items-stretch content-stretch">
+                <button
+                  type="submit"
+                  value="Submit"
+                  style={{ border: "1px solid #ee2624" }}
+                  className="flex justify-center cursor-pointer font-[700] px-[1.6rem] py-[0.6rem] ml-[0.4rem] w-full bg-[#ee2624] text-[#fff] rounded-[4px]"
+                >
+                  <span className="text-[14px] leading-[1.29]">Đăng ký</span>
                 </button>
               </div>
             </form>

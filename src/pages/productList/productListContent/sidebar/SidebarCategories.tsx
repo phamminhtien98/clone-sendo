@@ -63,7 +63,7 @@ const CategoriesChil = ({ category, handleSelectCategory }: Props2) => {
       {category.sub_category &&
         showMoreSubMenu &&
         category.sub_category.map((category, index) => (
-          <div className="flex flex-col pl-[3.2rem]" key={index}>
+          <div className="flex flex-col pl-[3.6rem]" key={index}>
             <CategoriesChil
               category={category}
               handleSelectCategory={handleSelectCategory}

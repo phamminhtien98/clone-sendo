@@ -356,44 +356,44 @@ const FooterSection4 = () => {
   const [showMoreTopTimKiem, setShowMoreTopTimKiem] = useState(false);
 
   return (
-    <section className="p-[2.4rem]">
-      <div className="containerct">
-        <div className="flex text-[#0f1e29] flex-col">
-          <div
-            className="flex cursor-pointer mb-[0.4rem]"
-            onClick={() => {
-              setShowMoreTopTimKiem(!showMoreTopTimKiem);
-            }}
+    <section className="p-[2.4rem] containerct">
+      <div className="flex text-[#0f1e29] flex-col">
+        <div
+          className="flex cursor-pointer mb-[0.4rem]"
+          onClick={() => {
+            setShowMoreTopTimKiem(!showMoreTopTimKiem);
+          }}
+        >
+          <span
+            className={`mr-[0.4rem] font-[700] text-[12px] leading-[1.6rem]`}
           >
-            <span
-              className={`mr-[0.4rem] font-[700] text-[12px] leading-[1.6rem]`}
-            >
-              TOP TÌM KIẾM
-            </span>
-            <img
-              src={downArrow}
-              alt=""
-              className={`w-[1.2rem] ${showMoreTopTimKiem ? "rotate-180" : ""}`}
-            />
-          </div>
-          <div
-            className={`transition-all duration-300 ease-linear ${
-              showMoreTopTimKiem
-                ? "min-h-[8rem] h-auto overflow-visible"
-                : "min-h-[1.8rem] h-[1.8rem] overflow-hidden"
+            TOP TÌM KIẾM
+          </span>
+          <img
+            src={downArrow}
+            alt=""
+            className={`w-[1.2rem] h-[1.2rem] ${
+              showMoreTopTimKiem ? "rotate-180" : ""
             }`}
-          >
-            {topTimKiem &&
-              topTimKiem.map((item, index) => (
-                <Link
-                  to={item.path}
-                  key={index}
-                  className="mr-[1.6rem] mt-[0.8rem] text-[#0f62fe] font-[400] text-[12px] leading-[1.6rem]"
-                >
-                  {item.name}
-                </Link>
-              ))}
-          </div>
+          />
+        </div>
+        <div
+          className={`transition-all duration-300 ease-linear ${
+            showMoreTopTimKiem
+              ? "min-h-[8rem] h-auto overflow-visible"
+              : "min-h-[1.8rem] h-[1.8rem] overflow-hidden"
+          }`}
+        >
+          {topTimKiem &&
+            topTimKiem.map((item, index) => (
+              <Link
+                to={item.path}
+                key={index}
+                className="mr-[1.6rem] mt-[0.8rem] text-[#0f62fe] font-[400] text-[12px] leading-[1.6rem]"
+              >
+                {item.name}
+              </Link>
+            ))}
         </div>
       </div>
     </section>

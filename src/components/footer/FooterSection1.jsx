@@ -21,7 +21,7 @@ const FooterSection1 = () => {
               <span className="mb-[0.4rem] font-[700] text-[12px] leading-[1.6rem]">
                 Siêu nhiều hàng tốt
               </span>
-              <span className="font-[400] text-[12px] leading-[1.6rem]">
+              <span className="font-[400] text-[12px] leading-[1.6rem] text-[#6f787e]">
                 Cần gì cũng có 26 ngành hàng & 10 triệu sản phẩm
               </span>
             </div>
@@ -39,7 +39,7 @@ const FooterSection1 = () => {
               <span className="mb-[0.4rem] font-[700] text-[12px] leading-[1.6rem]">
                 Siêu yên tâm
               </span>
-              <span className="font-[400] text-[12px] leading-[1.6rem]">
+              <span className="font-[400] text-[12px] leading-[1.6rem] text-[#6f787e]">
                 Miễn phí đổi trả 48h
               </span>
             </div>
@@ -57,7 +57,7 @@ const FooterSection1 = () => {
               <span className="mb-[0.4rem] font-[700] text-[12px] leading-[1.6rem]">
                 Siêu tiện lợi
               </span>
-              <span className="font-[400] text-[12px] leading-[1.6rem]">
+              <span className="font-[400] text-[12px] leading-[1.6rem] text-[#6f787e]">
                 Mang thế giới mua sắm của Sendo trong tầm tay bạn
               </span>
             </div>
@@ -75,7 +75,7 @@ const FooterSection1 = () => {
               <span className="mb-[0.4rem] font-[700] text-[12px] leading-[1.6rem]">
                 Siêu tiết kiệm
               </span>
-              <span className="font-[400] text-[12px] leading-[1.6rem]">
+              <span className="font-[400] text-[12px] leading-[1.6rem] text-[#6f787e]">
                 Giá hợp lý, vừa túi tiền. Luôn có nhiều chương trình khuyến mãi
               </span>
             </div>
