@@ -63,15 +63,15 @@ const ProductFlashSale = ({ data }: Props) => {
                 </div>
               )}
               {/* giá */}
-              <div>
+              <div className="leading-[1.8rem]">
                 <div className="text-[#ee2624] text-[16px] leading-[2.2rem] font-[700] text-ellipsis overflow-hidden">
                   {data.item.final_price.toLocaleString("vi-VN")}đ
                 </div>
                 <div className="h-[1.6rem]">
                   {data.item.promotion_percentage && (
                     <>
-                      <span className="text-[#b7bbbf] text-[11px] leading-[1.2rem] line-through">
-                        {data.item.price_range}
+                      <span className="text-[#b7bbbf] text-[11px] line-through">
+                        {data.item.price}
                       </span>
                       <span className="text-[#ee2624] text-[12px] leading-[1.6rem] ml-[0.4rem]">{`-${data.item.promotion_percentage}%`}</span>
                     </>
@@ -92,7 +92,7 @@ const ProductFlashSale = ({ data }: Props) => {
                           }%`,
                         }}
                       ></div>
-                      <span className="absolute z-[1] left-[50%] translate-x-[-50%] text-white text-[11px] text-center">
+                      <span className="leading-[1.5rem] absolute z-[1] left-[50%] translate-x-[-50%] text-white text-[11px] text-center">
                         {data.item.quantity === data.item.remaining
                           ? "Mở bán"
                           : `Đã bán ${

@@ -11,7 +11,7 @@ const ListProducts = ({ dataProductList }: Props) => {
       {dataProductList.length === 0 ? (
         <NotResult />
       ) : (
-        <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
+        <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 mb-[0.8rem] m-[-0.8rem]">
           {dataProductList.map((item, index) =>
             item.type === "SKU" ? (
               <ProductSKU key={index} data={item} />

@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import iconDownArrow from "../../../../assets/svg/downArrow.svg";
 import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
+import inputIsChecked from "../../../../assets/svg/inputIsChecked.svg";
+import inputUnChecked from "../../../../assets/svg/inputUnChecked.svg";
 import { IDataFilter } from "../../../../@Types/Types";
 import { useSearchParams } from "react-router-dom";
 interface Props {
@@ -82,7 +84,7 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
           <img
             src={iconDownArrow}
             alt=""
-            className={`w-[16px] h-[16px] ${showMore ? "" : "rotate-180"}`}
+            className={`w-[16px] h-[16px] ${showMore ? "rotate-180" : ""}`}
           />
         </button>
       </div>
@@ -97,11 +99,36 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
 
               return (
                 <div
-                  className="flex items-center rounded-[4px] pl-[1.5rem] py-[0.8rem] pr-[0.8rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
+                  className="flex items-center rounded-[4px] pl-[1.2rem] pr-[0.8rem] py-[0.4rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer max-h-[3.2rem]"
                   key={countItem}
                 >
+                  {isInputChecked(item.attribute_key ?? "", itemAtt.value) ? (
+                    <img
+                      src={inputIsChecked}
+                      alt=""
+                      className="w-[24px] mr-[0.8rem]"
+                    />
+                  ) : (
+                    <img
+                      src={inputUnChecked}
+                      alt=""
+                      className="w-[24px] mr-[0.8rem]"
+                    />
+                  )}
+                  <label
+                    className={`${
+                      isInputChecked(item.attribute_key ?? "", itemAtt.value)
+                        ? "font-[700]"
+                        : ""
+                    } text-[#3f4b53] cursor-pointer w-full flex items-center h-[24px]`}
+                    htmlFor={`${item.attribute_term}${countItem}`}
+                  >
+                    <span className=" whitespace-nowrap overflow-hidden text-ellipsis">
+                      {itemAtt.name}
+                    </span>
+                  </label>
                   <input
-                    className="w-[18px] h-[18px] cursor-pointer"
+                    className="hidden"
                     type="checkbox"
                     id={`${item.attribute_term}${countItem}`}
                     value={itemAtt.value}
@@ -117,16 +144,6 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
                       );
                     }}
                   />
-                  <label
-                    className={`${
-                      isInputChecked(item.attribute_key ?? "", itemAtt.value)
-                        ? "font-[700]"
-                        : ""
-                    } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
-                    htmlFor={`${item.attribute_term}${countItem}`}
-                  >
-                    {itemAtt.name}
-                  </label>
                 </div>
               );
             })

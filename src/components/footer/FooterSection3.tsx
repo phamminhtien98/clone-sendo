@@ -5,7 +5,7 @@ import noikhongvoihanggia from "../../assets/imagesFooter/noikhongvoihanggia.png
 const FooterSection3 = () => {
   return (
     <section className="bg-[#27343e] py-[2.4rem] text-white">
-      <div className="container">
+      <div className="containerct">
         <div className="flex justify-between">
           <div className="max-w-[42%] flex flex-col">
             <span className="mb-[1.2rem] font-[700] text-[12px] leading-[1.6rem]">
@@ -24,7 +24,7 @@ const FooterSection3 = () => {
               Thành phố Hồ Chí Minh, Việt Nam.
             </span>
             <span className="font-[400] text-[12px] leading-[1.6rem]">
-              Email:<Link to="mailto:lienhe@sendo.vn">lienhe@sendo.vn</Link>
+              Email:<Link to="mailto:lienhe@sendo.vn"> lienhe@sendo.vn</Link>
             </span>
             <div className="mt-[1.2rem] flex">
               <Link to={""}>

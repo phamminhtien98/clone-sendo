@@ -357,10 +357,10 @@ const FooterSection4 = () => {
 
   return (
     <section className="p-[2.4rem]">
-      <div className="container">
+      <div className="containerct">
         <div className="flex text-[#0f1e29] flex-col">
           <div
-            className="flex items-center cursor-pointer mb-[0.4rem]"
+            className="flex cursor-pointer mb-[0.4rem]"
             onClick={() => {
               setShowMoreTopTimKiem(!showMoreTopTimKiem);
             }}
@@ -373,7 +373,7 @@ const FooterSection4 = () => {
             <img
               src={downArrow}
               alt=""
-              className={`w-[1.2rem] ${showMoreTopTimKiem ? "" : "rotate-180"}`}
+              className={`w-[1.2rem] ${showMoreTopTimKiem ? "rotate-180" : ""}`}
             />
           </div>
           <div

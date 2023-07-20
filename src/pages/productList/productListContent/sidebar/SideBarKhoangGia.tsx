@@ -122,7 +122,7 @@ const SideBarKhoangGia = ({ dataFilter, attribute_key }: Props) => {
           <img
             src={iconDownArrow}
             alt=""
-            className={`w-[16px] h-[16px] ${showMore ? "" : "rotate-180"}`}
+            className={`w-[16px] h-[16px] ${showMore ? "rotate-180" : ""}`}
           />
         </button>
       </div>
@@ -178,7 +178,7 @@ const SideBarKhoangGia = ({ dataFilter, attribute_key }: Props) => {
             return (
               <span
                 key={index}
-                className="flex h-[3.2rem] p-[0.8rem] rounded-[4px] bg-[#f2f3f4] mb-[0.8rem] cursor-pointer hover:font-[700] hover:bg-[#e7e8ea]"
+                className="flex items-center h-[3.2rem] p-[0.8rem] rounded-[4px] bg-[#f2f3f4] mb-[0.8rem] cursor-pointer hover:font-[700] hover:bg-[#e7e8ea]"
                 style={
                   IsActive(item.gtprice, item.ltprice)
                     ? { border: "1px solid #ee2624", fontWeight: "700" }

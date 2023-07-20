@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import downArrow from "../../../../assets/svg/downArrow.svg";
 import iconCheck from "../../../../assets/svg/iconCheck.svg";
 import { useSearchParams } from "react-router-dom";
+
 const sortTypes = [
   {
     sortType: "vasup_desc",
@@ -68,11 +69,11 @@ const SortProduct = () => {
     <div className="flex cursor-pointer items-center">
       <span className="mr-[0.8rem]">Sắp xếp theo:</span>
       <div
-        className="w-full lg:w-[17%]"
+        className="w-full lg-16_67"
         onClick={() => setShow(!show)}
         ref={divSelectSortType}
       >
-        <div className=" relative bg-white border-[1px] border-[#cfd2d4] hover:border-[#3f81fe] min-h-[3.2rem] rounded-[4px] flex justify-between items-center py-[0.8rem] pl-[0.8rem]">
+        <div className=" relative bg-white border-[1px] border-[#cfd2d4]  hover:border-[#3f81fe] min-h-[3.36rem] rounded-[4px] flex justify-between items-center pl-[0.8rem]">
           <span className="text-[#6f787e]">{sortType.name}</span>
           <div className="px-[0.8rem]">
             <img

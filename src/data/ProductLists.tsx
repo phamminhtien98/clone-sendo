@@ -120,11 +120,6 @@ export const ProductLists = [
     },
   },
   {
-    index: 3,
-    type: "SendoClick",
-    is_empty: true,
-  },
-  {
     index: 4,
     type: "SKU",
     original_type: "SKU",

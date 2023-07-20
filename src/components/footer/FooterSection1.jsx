@@ -6,7 +6,7 @@ import sieutietkiem from "../../assets/imagesFooter/sieutietkiem.png";
 const FooterSection1 = () => {
   return (
     <section className=" bg-white">
-      <div className="px-[2.4rem] container">
+      <div className="px-[2.4rem] containerct">
         <div className="px-[1.6rem] py-[1.6rem] grid grid-cols-2 lg:grid-cols-4 text-center">
           <Link
             to={""}

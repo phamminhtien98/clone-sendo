@@ -83,11 +83,13 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="bg-red2">
-      <div className="container">
-        <div className="flex items-center">
+    <nav className="bg-[#ee2624]">
+      <div className="containerct h-[6.4rem] flex items-center">
+        <div className="flex items-center w-full">
           {/* logo sendo */}
-          <div className={`cursor-pointer ${st.logo}`}>
+          <div
+            className={`cursor-pointer ${st.logo} sm-16_67 md-16_67 lg-8_33 xl-8_33`}
+          >
             <Link to={""}>
               <img
                 src={logoSendo}
@@ -97,7 +99,7 @@ const NavBar = () => {
             </Link>
           </div>
           {/* search */}
-          <div className={`flex items-center flex-grow h-[6.4rem]`}>
+          <div className={`flex items-center w-full sm-41_67 md-50 lg-100`}>
             {/* search/icon menu */}
             <div className={`pl-[0.8rem] pr-[1.6rem]`}>
               <img
@@ -107,14 +109,11 @@ const NavBar = () => {
               />
             </div>
             {/* search/form search */}
-            <form
-              className={`w-[100%] flex items-center`}
-              onSubmit={handleOnSubmit}
-            >
+            <form className={`w-full h-max flex`} onSubmit={handleOnSubmit}>
               <div
-                className={`flex bg-white rounded-[4px] w-[100%] justify-between`}
+                className={`flex bg-white rounded-[4px] w-[100%] justify-between items-center text-[14px]`}
               >
-                <div className="w-[100%]">
+                <div className="">
                   <input
                     className="rounded-[4px] px-[1.6rem] py-[0.8rem] w-[100%] leading-[2.2rem]"
                     type="text"
@@ -126,7 +125,7 @@ const NavBar = () => {
                   />
                 </div>
                 <div
-                  className="flex justify-center items-center cursor-pointer bg-[#f2f3f4] relative rounded-r-[4px]"
+                  className="flex justify-center items-center cursor-pointer bg-[#f2f3f4] relative rounded-r-[4px] h-full rounded-[4px] w-[20rem]"
                   onClick={() => setShow(!show)}
                   ref={divSelectSearchRef}
                 >
@@ -139,7 +138,7 @@ const NavBar = () => {
                           selectSearch === "sen-do" ? "Sendo" : categoryName
                         }
                         autoComplete="off"
-                        className="bg-[#f2f3f4] px-[1.6rem] py-[0.8rem] font-bold cursor-pointer"
+                        className="bg-[#f2f3f4] pl-[1.6rem] py-[0.8rem] font-bold cursor-pointer leading-[2.2rem] w-full text-ellipsis text-[#3f4b53]"
                       />
                     </div>
                   </div>
@@ -199,7 +198,7 @@ const NavBar = () => {
                 </div>
               </div>
               <button
-                className={`bg-white p-[0.7rem] rounded-[4px] ml-[0.4rem] hover:hover:bg-[#f2f3f4] active:hover:bg-[#dddedf]`}
+                className={`bg-white border-[1px] p-[0.7rem] w-max h-max  rounded-[4px] ml-[0.4rem] hover:hover:bg-[#f2f3f4] active:hover:bg-[#dddedf]`}
                 type="submit"
               >
                 <img
@@ -211,15 +210,20 @@ const NavBar = () => {
             </form>
           </div>
           {/* login */}
-          <div className={`flex items-center justify-center min-w-[17.5rem]`}>
+          <div
+            className={`flex items-center justify-start sm-41_67 md-33_33 lg-auto min-w-[17.5rem]`}
+          >
             <div className={`px-[2.4rem]`}>
               <img src={iconBag} alt="icon bang" />
             </div>
-            <Link
-              to={""}
-              className={`px-[1.6rem] py-[0.6rem] rounded-[4px] bg-white font-[700] text-[#3f4b53]`}
-            >
-              <button>Đăng nhập</button>
+            <Link to={""}>
+              <button
+                className={`px-[1.6rem] py-[0.6rem] rounded-[4px] bg-white font-[700] border-[1px]`}
+              >
+                <span className="text-[#3f4b53] leading-[1.29] text-[14px]">
+                  Đăng nhập
+                </span>
+              </button>
             </Link>
           </div>
         </div>

@@ -4,6 +4,8 @@ import iconAdd from "../../../../assets/svg/iconAdd.svg";
 import iconSub from "../../../../assets/svg/iconSub.svg";
 import { IDataFilter } from "../../../../@Types/Types";
 import { useSearchParams } from "react-router-dom";
+import inputIsChecked from "../../../../assets/svg/inputIsChecked.svg";
+import inputUnChecked from "../../../../assets/svg/inputUnChecked.svg";
 interface Props {
   dataFilter: IDataFilter[];
   attribute_key: string;
@@ -64,7 +66,7 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
           <img
             src={iconDownArrow}
             alt=""
-            className={`w-[16px] h-[16px] ${showMore ? "" : "rotate-180"}`}
+            className={`w-[16px] h-[16px] ${showMore ? "rotate-180" : ""}`}
           />
         </button>
       </div>
@@ -75,11 +77,36 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
 
             return (
               <div
-                className="flex items-center rounded-[4px] pl-[1.5rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer"
+                className="flex items-center rounded-[4px] pl-[1.2rem] pr-[0.8rem] py-[0.4rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer max-h-[3.2rem]"
                 key={index}
               >
+                {isInputChecked(data[0].attribute_key ?? "", item.option_id) ? (
+                  <img
+                    src={inputIsChecked}
+                    alt=""
+                    className="w-[24px] mr-[0.8rem]"
+                  />
+                ) : (
+                  <img
+                    src={inputUnChecked}
+                    alt=""
+                    className="w-[24px] mr-[0.8rem]"
+                  />
+                )}
+                <label
+                  className={`${
+                    isInputChecked(data[0].attribute_key ?? "", item.option_id)
+                      ? "font-[700]"
+                      : ""
+                  } text-[#3f4b53]  cursor-pointer w-full h-[24px] flex items-center`}
+                  htmlFor={data[0].attribute_key + item.option_id}
+                >
+                  <span className="whitespace-nowrap overflow-hidden text-ellipsis">
+                    {item.option_name}
+                  </span>
+                </label>
                 <input
-                  className="w-[18px] h-[18px] cursor-pointer"
+                  className="hidden"
                   type="checkbox"
                   name=""
                   id={data[0].attribute_key + item.option_id}
@@ -96,16 +123,6 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
                     item.option_id
                   )}
                 />
-                <label
-                  className={`${
-                    isInputChecked(data[0].attribute_key ?? "", item.option_id)
-                      ? "font-[700]"
-                      : ""
-                  } ml-[0.8rem] text-[#3f4b53] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer w-full py-[0.8rem] pr-[0.8rem]`}
-                  htmlFor={data[0].attribute_key + item.option_id}
-                >
-                  {item.option_name}
-                </label>
               </div>
             );
           })}

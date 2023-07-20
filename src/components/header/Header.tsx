@@ -24,7 +24,7 @@ const Header = () => {
 
   window.addEventListener("scroll", changeFixedNav);
   return (
-    <div className="min-h-[10rem]">
+    <div className="min-h-[9.6rem]">
       <div ref={headerRef}>
         <HeaderTop />
         <NavBar />

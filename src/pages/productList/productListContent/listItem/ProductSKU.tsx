@@ -52,7 +52,7 @@ const ProductSKU = ({ data }: Props) => {
               </div>
             )}
             {/* tên sản phẩm  */}
-            <span className="text-[#0f1e29] mb-[0.4rem] h-[3.6rem] line-clamp-2">
+            <span className="text-[#0f1e29] mb-[0.4rem] h-[3.6rem] line-clamp-2 text-ellipsis leading-[1.8rem]">
               {data.item.shop_badge_urls && (
                 // eslint-disable-next-line jsx-a11y/alt-text
                 <img
@@ -63,18 +63,18 @@ const ProductSKU = ({ data }: Props) => {
               {data.item.name}
             </span>
             {/* giá */}
-            <div>
-              <div className="h-[1.6rem]">
+            <div className="">
+              <div className="h-[1.6rem] flex items-center">
                 {data.item.promotion_percentage && (
                   <>
                     <span className="text-[#b7bbbf] text-[11px] leading-[1.2rem] line-through">
-                      {data.item.price.toLocaleString("vi-VN")}đ
+                      {data.item.final_price.toLocaleString("vi-VN")}đ
                     </span>
                     <span className="text-[#ee2624] text-[12px] leading-[1.6rem] ml-[0.4rem]">{`-${data.item.promotion_percentage}%`}</span>
                   </>
                 )}
               </div>
-              <div className="text-[#ee2624] text-[16px] leading-[2.2rem] font-[700] text-ellipsis overflow-hidden whitespace-nowrap">
+              <div className="text-[#ee2624] leading-[2.2rem] text-[16px] font-[700] text-ellipsis overflow-hidden whitespace-nowrap">
                 {data.item.price_range}
               </div>
             </div>

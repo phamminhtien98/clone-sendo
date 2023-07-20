@@ -28,18 +28,19 @@ const CategoriesChil = ({ category, handleSelectCategory }: Props2) => {
         }}
       >
         {({ isActive }) => (
-          <div className="px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] hover:font-[700] rounded-[4px] cursor-pointer">
+          <div className=" max-h-[3.16rem] px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] hover:font-[700] rounded-[4px] cursor-pointer">
             {category.sub_category && (
               <button
-                className="p-[0.5rem] rounded-[4px]"
+                className="p-[0.5rem] rounded-[4px] border-white border-[1px]"
                 onClick={(e) => {
+                  e.stopPropagation();
                   e.preventDefault();
                   setShowMoreSubMenu(!showMoreSubMenu);
                 }}
               >
                 <svg
                   className={`max-w-[12px] h-[12px] ${
-                    showMoreSubMenu ? "" : "rotate-180"
+                    showMoreSubMenu ? "rotate-180" : ""
                   }`}
                   style={{ fill: `${isActive ? "#ee2624" : ""}` }}
                   viewBox="0 0 24 24"
@@ -52,7 +53,7 @@ const CategoriesChil = ({ category, handleSelectCategory }: Props2) => {
             )}
 
             <span
-              className={` text-[14px] ml-[0.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1`}
+              className={`text-[14px] ml-[0.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1`}
             >
               {category.name}
             </span>
@@ -78,7 +79,7 @@ const CategoriesParent = ({ category, handleSelectCategory }: Props2) => {
   const [btnShow, setBtnShow] = useState(false);
   return (
     <>
-      <div>
+      <div className="">
         <NavLink
           to={`/${category.cate_path}`}
           className={({ isActive }) =>
@@ -89,17 +90,18 @@ const CategoriesParent = ({ category, handleSelectCategory }: Props2) => {
           }}
         >
           {({ isActive }) => (
-            <div className="px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] rounded-[4px] cursor-pointer">
+            <div className="max-h-[3.16rem] px-[0.8rem] py-[0.4rem] flex items-center hover:bg-[#f2f3f4] rounded-[4px] cursor-pointer">
               <button
-                className="p-[0.5rem] rounded-[4px]"
+                className="p-[0.5rem] rounded-[4px] border-white border-[1px]"
                 onClick={(e) => {
+                  e.stopPropagation();
                   e.preventDefault();
                   setShowMoreSubMenu(!showMoreSubMenu);
                 }}
               >
                 <svg
                   className={`max-w-[12px] h-[12px] ${
-                    showMoreSubMenu ? "" : "rotate-180"
+                    showMoreSubMenu ? "rotate-180" : ""
                   }`}
                   style={{ fill: `${isActive ? "#ee2624" : ""}` }}
                   viewBox="0 0 24 24"
@@ -174,7 +176,7 @@ const SidebarCategories = ({ categories, handleSelectCategory }: Props) => {
           Danh mục
         </span>
         <button
-          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px]"
+          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px] border-white border-[1px]"
           onClick={() => {
             setShowMore(!showMore);
           }}

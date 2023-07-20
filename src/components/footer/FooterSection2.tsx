@@ -4,7 +4,7 @@ import appstore from "../../assets/imagesFooter/5lUTWdk3DXr8nlC9MDII.png";
 import appgallery from "../../assets/imagesFooter/AMV086JNpEbm4OGAvVng.png";
 const FooterSection2 = () => {
   return (
-    <section className="container py-[2.4rem] bg-[#f2f3f4]">
+    <section className="containerct py-[2.4rem] bg-[#f2f3f4]">
       <div className="grid grid-cols-4">
         <div className="flex flex-col">
           <span className="mb-[1.2rem] font-[700] text-[12px] leading-[1.6rem]">
