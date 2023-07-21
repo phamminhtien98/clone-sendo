@@ -19,7 +19,7 @@ const ProductFlashSale = ({ data }: Props) => {
           <div
             className={`${
               data.title === "FlashSale" ? "w-[10.2rem]" : "w-full"
-            } h-[2.4rem] mb-[4.3rem] bg-contain bg-no-repeat`}
+            } h-[2.4rem] mb-[3.9rem] bg-contain bg-no-repeat`}
             style={{
               backgroundImage: `url(${
                 data.type === "FlashSale"
@@ -79,10 +79,10 @@ const ProductFlashSale = ({ data }: Props) => {
                 </div>
               </div>
               {/* Mở bán */}
-              <div className="h-[1.6rem]">
+              <div className="h-[1.4rem] mb-[0.4rem]">
                 {data.item.quantity && data.item.remaining && (
                   <div className="mt-[0.4rem]">
-                    <div className="h-[1.4rem] rounded-[8px] bg-[#f47c7b] w-[100%] relative overflow-hidden">
+                    <div className="h-[1.4rem] mb-[0.4rem] rounded-[8px] bg-[#f47c7b] w-[100%] relative overflow-hidden">
                       <div
                         className="absolute h-[1.4rem] top-0 left-0 z-0 rounded-[8px] bg-[#d52220]"
                         style={{

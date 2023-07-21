@@ -117,7 +117,7 @@ const ProductSKU = ({ data }: Props) => {
               )}
             </div>
             {/* đánh giá & nơi bán */}
-            <div className="flex justify-between items-center mb-[0.8rem] text-[#0f1e29] leading-[1.2rem] text-[11px]">
+            <div className="flex justify-between items-center text-[#0f1e29] h-[1.2rem] mt-[0.4rem] text-[11px] leading-[1.2px]">
               <div>
                 {data.item.rating_percent && (
                   <>
