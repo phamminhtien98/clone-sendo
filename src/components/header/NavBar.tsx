@@ -111,7 +111,7 @@ const NavBar = () => {
             {/* search/form search */}
             <form className={`w-full h-max flex`} onSubmit={handleOnSubmit}>
               <div
-                className={`flex bg-white rounded-[4px] w-[100%] justify-between items-center text-[14px] overflow-hidden`}
+                className={`flex bg-white rounded-[4px] w-[100%] justify-between items-center text-[14px]`}
               >
                 <div className="">
                   <input
@@ -142,13 +142,21 @@ const NavBar = () => {
                     <img
                       src={downArrow}
                       alt=""
-                      className="w-[24px] h-[24px] max-w-[unset]"
+                      className={`w-[24px] h-[24px] max-w-[unset] ${
+                        show ? "rotate-180" : ""
+                      }`}
                     />
                   </div>
                   {show && (
-                    <ul className="p-[0.8rem] shadow bg-white rounded-[4px] top-[120%] absolute min-w-[20rem] left-0 z-[2]">
+                    <ul
+                      className="p-[0.8rem] shadow bg-white rounded-[4px] top-[110%] absolute min-w-[20rem] right-0 z-[10]"
+                      style={{
+                        boxShadow:
+                          "0 -4px 16px 0 rgba(0,0,0,.1), 0 8px 16px 0 rgba(0,0,0,.1)",
+                      }}
+                    >
                       <li
-                        className="flex justify-between items-center p-[0.8rem] rounded-[4px] hover:bg-[#f2f3f4]"
+                        className="flex justify-between items-center p-[1.2rem] rounded-[4px] hover:bg-[#f2f3f4]"
                         onClick={() => {
                           handleSelect("sen-do");
                         }}
@@ -156,7 +164,7 @@ const NavBar = () => {
                         <span
                           className={`${
                             selectSearch === "sen-do" ? "font-[700]" : ""
-                          } whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
+                          } leading-[2.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
                         >
                           Tìm trên Sendo
                         </span>
@@ -164,12 +172,12 @@ const NavBar = () => {
                           <img
                             src={iconCheck}
                             alt=""
-                            className="w-[24px] h-[24px] max-w-[unset] ml-3"
+                            className="w-[21.2px] h-[24px] max-w-[unset] ml-[1.1rem]"
                           />
                         )}
                       </li>
                       <li
-                        className="flex justify-between items-center p-[0.8rem] rounded-[4px] hover:bg-[#f2f3f4]"
+                        className="flex justify-between items-center p-[1.2rem] rounded-[4px] hover:bg-[#f2f3f4]"
                         onClick={() => {
                           handleSelect(path);
                         }}
@@ -177,7 +185,7 @@ const NavBar = () => {
                         <span
                           className={`${
                             selectSearch === path ? "font-[700]" : ""
-                          } whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
+                          } leading-[2.4rem] whitespace-nowrap overflow-hidden text-ellipsis flex-1 cursor-pointer`}
                         >
                           {`Tìm trong ${categoryName}`}
                         </span>
@@ -185,7 +193,7 @@ const NavBar = () => {
                           <img
                             src={iconCheck}
                             alt=""
-                            className="w-[24px] h-[24px] max-w-[unset] ml-3"
+                            className="w-[21.2px] h-[24px] max-w-[unset] ml-[1.1rem]"
                           />
                         )}
                       </li>

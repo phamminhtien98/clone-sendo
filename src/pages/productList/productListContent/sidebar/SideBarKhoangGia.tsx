@@ -114,7 +114,7 @@ const SideBarKhoangGia = ({ dataFilter, attribute_key }: Props) => {
           {data[0]?.attribute_name}
         </span>
         <button
-          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px]"
+          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px] border-[1px] border-white"
           onClick={() => {
             setShowMore(!showMore);
           }}
@@ -127,8 +127,8 @@ const SideBarKhoangGia = ({ dataFilter, attribute_key }: Props) => {
         </button>
       </div>
       {data[0].attribute_value && showMore && (
-        <div className={`flex flex-col overflow-hidden mt-3 px-[1.2rem]`}>
-          <div className="flex flex-col w-full text-[#6f787e] py-[0.8rem]">
+        <div className={`flex flex-col overflow-hidden px-[1.2rem]`}>
+          <div className="flex flex-col w-full text-[#6f787e] pt-[0.8rem] pb-[1.2rem]">
             <div className="flex">
               <div className="flex flex-col">
                 <span className="mb-[0.8rem]">Thấp nhất</span>
@@ -161,7 +161,7 @@ const SideBarKhoangGia = ({ dataFilter, attribute_key }: Props) => {
               </div>
             </div>
             <button
-              className={`font-[700] py-[0.4rem] mt-[0.8rem] rounded-[4px] text-[12px] transition-all duration-300 ease-linear ${
+              className={`min-h-[2.4rem] font-[700] py-[0.4rem] mt-[0.8rem] rounded-[4px] text-[12px] transition-all duration-300 ease-linear ${
                 btnLook
                   ? "cursor-pointer bg-[#ee2624] text-white hover:bg-[#f1514f]"
                   : "cursor-not-allowed bg-[#f2f3f4] text-[#b7bbbf]"

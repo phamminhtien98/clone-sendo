@@ -148,7 +148,7 @@ const CategoriesParent = ({ category, handleSelectCategory }: Props2) => {
                   setBtnShow(!btnShow);
                 }}
               >
-                <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
+                <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex items-center border-[1px] border-white">
                   <img
                     src={btnShow ? iconSub : iconAdd}
                     alt=""

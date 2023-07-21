@@ -79,7 +79,7 @@ const SideBarDanhGia = ({ dataFilter, attribute_key }: Props) => {
           {data[0]?.attribute_name}
         </span>
         <button
-          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px]"
+          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px] border-[1px] border-white"
           onClick={() => {
             setShowMore(!showMore);
           }}
@@ -92,7 +92,9 @@ const SideBarDanhGia = ({ dataFilter, attribute_key }: Props) => {
         </button>
       </div>
       {data[0].attribute_value && showMore && (
-        <div className={`flex flex-col overflow-hidden mt-3 px-[1.2rem]`}>
+        <div
+          className={`flex flex-col overflow-hidden pt-[0.4rem] px-[1.2rem]`}
+        >
           {data[0].attribute_value.map((item, index) => (
             <span
               key={index}

@@ -79,11 +79,19 @@ const SortProduct = () => {
             <img
               src={downArrow}
               alt=""
-              className="w-[16px] h-[16px] max-w-[unset]"
+              className={`w-[16px] h-[16px] max-w-[unset] ${
+                show ? "rotate-180" : ""
+              }`}
             />
           </div>
           {show && (
-            <ul className="lg:w-[179px] p-[0.8rem] shadow bg-white rounded-[4px] absolute w-full top-[120%] left-0 z-[2]">
+            <ul
+              className=" p-[0.8rem] shadow bg-white rounded-[4px] absolute w-[90%] top-[120%] left-[50%] translate-x-[-50%] z-[2]"
+              style={{
+                boxShadow:
+                  "0 -4px 16px 0 rgba(0,0,0,.1), 0 8px 16px 0 rgba(0,0,0,.1)",
+              }}
+            >
               {sortTypes.map((item, index) => {
                 return (
                   <li

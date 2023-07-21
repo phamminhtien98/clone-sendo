@@ -76,7 +76,7 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
           Ưu đãi
         </span>
         <button
-          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px]"
+          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px] border-[1px] border-white"
           onClick={() => {
             setShowMore(!showMore);
           }}
@@ -90,7 +90,7 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
       </div>
 
       {totalAttribute_value.length > 0 && showMore && (
-        <div className="flex flex-col overflow-hidden mt-3">
+        <div className="flex flex-col overflow-hidden mt-[0.8rem]">
           {data.map((item) =>
             item.attribute_value?.map((itemAtt) => {
               countItem++;
@@ -102,28 +102,24 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
                   className="flex items-center rounded-[4px] pl-[1.2rem] pr-[0.8rem] py-[0.4rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer max-h-[3.2rem]"
                   key={countItem}
                 >
-                  {isInputChecked(item.attribute_key ?? "", itemAtt.value) ? (
-                    <img
-                      src={inputIsChecked}
-                      alt=""
-                      className="w-[24px] mr-[0.8rem]"
-                    />
-                  ) : (
-                    <img
-                      src={inputUnChecked}
-                      alt=""
-                      className="w-[24px] mr-[0.8rem]"
-                    />
-                  )}
+                  <img
+                    src={
+                      isInputChecked(item.attribute_key ?? "", itemAtt.value)
+                        ? inputIsChecked
+                        : inputUnChecked
+                    }
+                    alt=""
+                    className="w-[24px] mr-[0.8rem]"
+                  />
                   <label
                     className={`${
                       isInputChecked(item.attribute_key ?? "", itemAtt.value)
                         ? "font-[700]"
                         : ""
-                    } text-[#3f4b53] cursor-pointer w-full flex items-center h-[24px]`}
+                    } text-[#3f4b53] cursor-pointer w-full flex items-center h-[24px] overflow-hidden `}
                     htmlFor={`${item.attribute_term}${countItem}`}
                   >
-                    <span className=" whitespace-nowrap overflow-hidden text-ellipsis">
+                    <span className=" whitespace-nowrap text-ellipsis overflow-hidden">
                       {itemAtt.name}
                     </span>
                   </label>
@@ -156,7 +152,7 @@ const SideBarUuDai = ({ dataFilter }: Props) => {
                 setBtnShow(!btnShow);
               }}
             >
-              <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
+              <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex items-center border-[1px] border-white">
                 <img
                   src={btnShow ? iconSub : iconAdd}
                   alt=""

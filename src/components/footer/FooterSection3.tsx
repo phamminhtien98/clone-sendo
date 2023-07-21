@@ -48,7 +48,6 @@ const FooterSection3 = () => {
                       inputMode="email"
                       placeholder="Email của bạn là"
                       className="bg-inherit border-none w-full leading-[1.4rem] text-[14px] p-[0.8rem]"
-                      value={""}
                     />
                   </div>
                 </div>
@@ -56,7 +55,6 @@ const FooterSection3 = () => {
               <div className="sm-16_67 items-stretch content-stretch">
                 <button
                   type="submit"
-                  value="Submit"
                   style={{ border: "1px solid #ee2624" }}
                   className="flex justify-center cursor-pointer font-[700] px-[1.6rem] py-[0.6rem] ml-[0.4rem] w-full bg-[#ee2624] text-[#fff] rounded-[4px]"
                 >

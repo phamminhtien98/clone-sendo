@@ -58,7 +58,7 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
           {data[0]?.attribute_name}
         </span>
         <button
-          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px]"
+          className="p-[0.7rem] hover:bg-[#f2f3f4] rounded-[4px] border-[1px] border-white"
           onClick={() => {
             setShowMore(!showMore);
           }}
@@ -71,7 +71,7 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
         </button>
       </div>
       {data[0].attribute_value && showMore && (
-        <div className={`flex flex-col overflow-hidden mt-3`}>
+        <div className={`flex flex-col overflow-hidden mt-[0.8rem]`}>
           {data[0].attribute_value.map((item, index) => {
             if (index > 3 && !btnShow) return null;
 
@@ -80,19 +80,6 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
                 className="flex items-center rounded-[4px] pl-[1.2rem] pr-[0.8rem] py-[0.4rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer max-h-[3.2rem]"
                 key={index}
               >
-                {isInputChecked(data[0].attribute_key ?? "", item.option_id) ? (
-                  <img
-                    src={inputIsChecked}
-                    alt=""
-                    className="w-[24px] mr-[0.8rem]"
-                  />
-                ) : (
-                  <img
-                    src={inputUnChecked}
-                    alt=""
-                    className="w-[24px] mr-[0.8rem]"
-                  />
-                )}
                 <label
                   className={`${
                     isInputChecked(data[0].attribute_key ?? "", item.option_id)
@@ -101,7 +88,19 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
                   } text-[#3f4b53]  cursor-pointer w-full h-[24px] flex items-center`}
                   htmlFor={data[0].attribute_key + item.option_id}
                 >
-                  <span className="whitespace-nowrap overflow-hidden text-ellipsis">
+                  <img
+                    src={
+                      isInputChecked(
+                        data[0].attribute_key ?? "",
+                        item.option_id
+                      )
+                        ? inputIsChecked
+                        : inputUnChecked
+                    }
+                    alt=""
+                    className="w-[24px] mr-[0.8rem]"
+                  />
+                  <span className="whitespace-nowrap overflow-hidden text-ellipsis leading-[1.6rem]">
                     {item.option_name}
                   </span>
                 </label>
@@ -129,12 +128,12 @@ const SideBarCheckBox = ({ dataFilter, attribute_key }: Props) => {
 
           {data[0].attribute_value.length > 4 && (
             <div
-              className="flex justify-center"
+              className="flex justify-center mt-[0.8rem] items-center"
               onClick={() => {
                 setBtnShow(!btnShow);
               }}
             >
-              <button className="px-[0.7rem] py-[0.6rem] cursor-pointer mt-[0.8rem] text-[#3f4b53] rounded-[4px] flex">
+              <button className="px-[0.7rem] py-[0.6rem] cursor-pointer text-[#3f4b53] rounded-[4px] flex items-center border-[1px] border-white">
                 <img
                   src={btnShow ? iconSub : iconAdd}
                   alt=""
