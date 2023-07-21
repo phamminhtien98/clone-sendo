@@ -39,7 +39,6 @@ const SideBar = ({ categories, handleSelectCategory, dataFilter }: Props) => {
       <SideBarDanhGia dataFilter={dataFilter} attribute_key="levelRating" />
       <hr className="h-[1px] text-[#0f1e29]" />
       {/* màu sắc */}
-      <hr className="h-[1px] text-[#0f1e29]" />
       <SideBarCheckBox dataFilter={dataFilter} attribute_key="loai_dia" />
       <hr className="h-[1px] text-[#0f1e29]" />
       <SideBarCheckBox
