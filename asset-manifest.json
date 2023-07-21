@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clone-sendo/static/css/main.00a92fcd.css",
-    "main.js": "/clone-sendo/static/js/main.b1d662b1.js",
+    "main.css": "/clone-sendo/static/css/main.148e71ca.css",
+    "main.js": "/clone-sendo/static/js/main.c6baee50.js",
     "static/js/787.5740faa9.chunk.js": "/clone-sendo/static/js/787.5740faa9.chunk.js",
     "static/media/0ZARLASzVrfL92924rzW.png": "/clone-sendo/static/media/0ZARLASzVrfL92924rzW.085d2ca312be31797b0e.png",
     "static/media/notResultImg.png": "/clone-sendo/static/media/notResultImg.6f8182e5739d2e8007ca.png",
@@ -16,12 +16,12 @@
     "static/media/iconAdd.svg": "/clone-sendo/static/media/iconAdd.ea0bac7fdad3a6ea1fff9a6a3349fa28.svg",
     "static/media/iconSub.svg": "/clone-sendo/static/media/iconSub.3d87817f6ba64a99ebbde3a676439721.svg",
     "static/media/iconCheck.svg": "/clone-sendo/static/media/iconCheck.f19e55e41a762c2bf75b011e837e7ec9.svg",
-    "main.00a92fcd.css.map": "/clone-sendo/static/css/main.00a92fcd.css.map",
-    "main.b1d662b1.js.map": "/clone-sendo/static/js/main.b1d662b1.js.map",
+    "main.148e71ca.css.map": "/clone-sendo/static/css/main.148e71ca.css.map",
+    "main.c6baee50.js.map": "/clone-sendo/static/js/main.c6baee50.js.map",
     "787.5740faa9.chunk.js.map": "/clone-sendo/static/js/787.5740faa9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00a92fcd.css",
-    "static/js/main.b1d662b1.js"
+    "static/css/main.148e71ca.css",
+    "static/js/main.c6baee50.js"
   ]
 }
