@@ -1,3 +1,4 @@
+import BtnXemThem from "./BtnXemThem";
 import NotResult from "./NotResult";
 import ProductFlashSale from "./ProductFlashSale";
 import ProductSKU from "./ProductSKU";
@@ -23,6 +24,7 @@ const ListProducts = ({ dataProductList }: Props) => {
           )}
         </div>
       )}
+      <BtnXemThem />
     </>
   );
 };

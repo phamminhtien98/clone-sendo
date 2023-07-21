@@ -111,7 +111,7 @@ const NavBar = () => {
             {/* search/form search */}
             <form className={`w-full h-max flex`} onSubmit={handleOnSubmit}>
               <div
-                className={`flex bg-white rounded-[4px] w-[100%] justify-between items-center text-[14px]`}
+                className={`flex bg-white rounded-[4px] w-[100%] justify-between items-center text-[14px] overflow-hidden`}
               >
                 <div className="">
                   <input
@@ -129,18 +129,14 @@ const NavBar = () => {
                   onClick={() => setShow(!show)}
                   ref={divSelectSearchRef}
                 >
-                  <div>
-                    <div>
-                      <input
-                        type="text"
-                        disabled
-                        value={
-                          selectSearch === "sen-do" ? "Sendo" : categoryName
-                        }
-                        autoComplete="off"
-                        className="bg-[#f2f3f4] pl-[1.6rem] py-[0.8rem] font-bold cursor-pointer leading-[2.2rem] w-full text-ellipsis text-[#3f4b53]"
-                      />
-                    </div>
+                  <div className="flex w-full overflow-hidden">
+                    <input
+                      type="text"
+                      disabled
+                      value={selectSearch === "sen-do" ? "Sendo" : categoryName}
+                      autoComplete="off"
+                      className="bg-[#f2f3f4] pl-[1.6rem] py-[0.8rem] font-bold cursor-pointer leading-[2.2rem] w-full text-ellipsis text-[#3f4b53]"
+                    />
                   </div>
                   <div className="pl-[1.2rem] pr-[1.2rem]">
                     <img

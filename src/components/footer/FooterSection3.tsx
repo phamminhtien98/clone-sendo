@@ -26,7 +26,7 @@ const FooterSection3 = () => {
             <span className="font-[400] text-[12px] leading-[1.6rem]">
               Email:<Link to="mailto:lienhe@sendo.vn"> lienhe@sendo.vn</Link>
             </span>
-            <div className="mt-[1.2rem] flex">
+            <div className="mt-[1.2rem] flex flex-wrap">
               <Link to={""}>
                 <img src={dadangky} alt="" className="h-[3.3rem] mr-[2rem]" />
               </Link>
@@ -42,13 +42,15 @@ const FooterSection3 = () => {
             <form className="flex items-center w-full">
               <div className="sm-50 items-stretch content-stretch rounded-[4px] drop-shadow-[0_0_0_1px_transparent] bg-white">
                 <div className="flex text-[14px] overflow-hidden w-full ">
-                  <input
-                    type="text"
-                    inputMode="email"
-                    placeholder="Email của bạn là"
-                    className="bg-inherit border-none w-full leading-[1.4rem] text-[14px] p-[0.8rem]"
-                    value={""}
-                  />
+                  <div className="flex">
+                    <input
+                      type="text"
+                      inputMode="email"
+                      placeholder="Email của bạn là"
+                      className="bg-inherit border-none w-full leading-[1.4rem] text-[14px] p-[0.8rem]"
+                      value={""}
+                    />
+                  </div>
                 </div>
               </div>
               <div className="sm-16_67 items-stretch content-stretch">
