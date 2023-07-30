@@ -60,21 +60,21 @@ const SideBarCheckBoxEP = ({ dataFilter, attribute_key }: Props) => {
                 className="flex items-center rounded-[4px] pl-[1.2rem] pr-[0.8rem] py-[0.4rem] hover:bg-[#f2f3f4] hover:font-[700] cursor-pointer max-h-[3.2rem]"
                 key={index}
               >
-                <img
-                  src={
-                    paramConfig[item.search_key]
-                      ? inputIsChecked
-                      : inputUnChecked
-                  }
-                  alt=""
-                  className="w-[24px] mr-[0.8rem]"
-                />
                 <label
                   className={`${
                     paramConfig[item.search_key] ? "font-[700]" : ""
                   } text-[#3f4b53] cursor-pointer w-full flex items-center h-[24px]`}
                   htmlFor={item.search_key}
                 >
+                  <img
+                    src={
+                      paramConfig[item.search_key]
+                        ? inputIsChecked
+                        : inputUnChecked
+                    }
+                    alt=""
+                    className="w-[24px] mr-[0.8rem]"
+                  />
                   <span className="whitespace-nowrap overflow-hidden text-ellipsis">
                     {item.option_name}
                   </span>
